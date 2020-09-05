@@ -1,0 +1,2 @@
+C:/Users/makot/Downloads/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/Wks_TweApps/App_Twelite/App_Twelite/App_Twelite.c: In function 'vProcessEvCorePwr':
+C:/Users/makot/Downloads/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/Wks_TweApps/App_Twelite/App_Twelite/App_Twelite.c:245:18: warning: variable 'bStarted' set but not used [-Wunused-but-set-variable]
