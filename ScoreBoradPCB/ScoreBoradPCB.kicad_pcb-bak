@@ -34,9 +34,7 @@
   )
 
   (setup
-    (last_trace_width 4)
-    (user_trace_width 2)
-    (user_trace_width 4)
+    (last_trace_width 0.25)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -1467,7 +1465,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5F54F78A)
-    (at 125.73 80.01 90)
+    (at 125.73 81.28 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F8E0D1A)
@@ -1503,7 +1501,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5F54F779)
-    (at 118.745 80.01 90)
+    (at 118.745 81.28 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F8A6840)
@@ -3267,7 +3265,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer B.Cu) (tedit 5A02FF57) (tstamp 5F54F438)
-    (at 122.555 80.01)
+    (at 122.555 81.28)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5F8A53F7)
@@ -5112,7 +5110,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5F54EFD0)
-    (at 141.605 93.98 90)
+    (at 141.605 93.98 270)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /60D8E0D0)
@@ -5138,9 +5136,9 @@
     (fp_line (start -1.48 -0.73) (end 1.48 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.48 -0.73) (end 1.48 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 20 "Net-(D11-Pad2)"))
-    (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -5150,7 +5148,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5F54EFBD)
-    (at 137.795 93.98 90)
+    (at 137.795 93.98 270)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /60D8DD79)
@@ -5176,9 +5174,9 @@
     (fp_line (start -1.48 -0.73) (end 1.48 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.48 -0.73) (end 1.48 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 19 "Net-(D10-Pad2)"))
-    (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
     (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl
       (at (xyz 0 0 0))
