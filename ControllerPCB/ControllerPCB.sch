@@ -627,24 +627,46 @@ F 3 "~" H 7450 5400 50  0001 C CNN
 	1    7450 5200
 	0    1    1    0   
 $EndComp
-Text Label 2100 5800 2    50   ~ 0
-stop_hun
 Text Label 2100 5700 2    50   ~ 0
-stop_ten
+stop_hun
 Text Label 2100 5600 2    50   ~ 0
-stop_one
+stop_ten
 Text Label 2100 5500 2    50   ~ 0
+stop_one
+Text Label 2100 5300 2    50   ~ 0
 roll_start
-Text Label 2100 5400 2    50   ~ 0
+Text Label 2100 5200 2    50   ~ 0
 ShutDown
 Wire Wire Line
-	2200 5800 2100 5800
+	2200 5700 2100 5700
 Wire Wire Line
-	2100 5700 2200 5700
+	2100 5600 2200 5600
 Wire Wire Line
-	2200 5600 2100 5600
+	2200 5500 2100 5500
 Wire Wire Line
-	2100 5500 2200 5500
+	2100 5300 2200 5300
 Wire Wire Line
-	2200 5400 2100 5400
+	2200 5200 2100 5200
+Wire Wire Line
+	1700 5800 2200 5800
+Wire Wire Line
+	1700 5900 1700 5800
+$Comp
+L power:GND #PWR?
+U 1 1 5F550DF4
+P 1700 5900
+F 0 "#PWR?" H 1700 5650 50  0001 C CNN
+F 1 "GND" H 1705 5727 50  0000 C CNN
+F 2 "" H 1700 5900 50  0001 C CNN
+F 3 "" H 1700 5900 50  0001 C CNN
+	1    1700 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2200 5400
+NoConn ~ 2200 5000
+NoConn ~ 2200 5100
+NoConn ~ 2200 4700
+NoConn ~ 2700 5200
+NoConn ~ 2700 5100
+NoConn ~ 2700 4900
 $EndSCHEMATC

@@ -599,31 +599,52 @@ Wire Wire Line
 	4850 2050 4850 2100
 Wire Wire Line
 	5100 2100 5100 2050
-$Comp
-L Switch:SW_SPDT SW?
-U 1 1 5F5AE3DF
-P 7250 5300
-F 0 "SW?" H 7250 5585 50  0000 C CNN
-F 1 "SW_SPDT" H 7250 5494 50  0000 C CNN
-F 2 "" H 7250 5300 50  0001 C CNN
-F 3 "~" H 7250 5300 50  0001 C CNN
-	1    7250 5300
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	7450 4950 7450 5000
+Text Label 7450 4950 2    50   ~ 0
+ShutDown
+Wire Wire Line
+	7450 5500 7450 5400
 $Comp
 L power:GND #PWR?
-U 1 1 5F5B01F9
-P 7500 5450
-F 0 "#PWR?" H 7500 5200 50  0001 C CNN
-F 1 "GND" H 7505 5277 50  0000 C CNN
-F 2 "" H 7500 5450 50  0001 C CNN
-F 3 "" H 7500 5450 50  0001 C CNN
-	1    7500 5450
-	1    0    0    -1  
+U 1 1 5F5B753C
+P 7450 5500
+F 0 "#PWR?" H 7450 5250 50  0001 C CNN
+F 1 "GND" H 7455 5327 50  0000 C CNN
+F 2 "" H 7450 5500 50  0001 C CNN
+F 3 "" H 7450 5500 50  0001 C CNN
+	1    7450 5500
+	-1   0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F5B7542
+P 7450 5200
+F 0 "SW?" V 7404 5348 50  0000 L CNN
+F 1 "SW_Push" V 7495 5348 50  0000 L CNN
+F 2 "" H 7450 5400 50  0001 C CNN
+F 3 "~" H 7450 5400 50  0001 C CNN
+	1    7450 5200
+	0    1    1    0   
+$EndComp
+Text Label 2100 5700 2    50   ~ 0
+stop_hun
+Text Label 2100 5600 2    50   ~ 0
+stop_ten
+Text Label 2100 5500 2    50   ~ 0
+stop_one
+Text Label 2100 5400 2    50   ~ 0
+roll_start
+Text Label 2100 5300 2    50   ~ 0
+ShutDown
 Wire Wire Line
-	7450 5400 7500 5400
+	2200 5700 2100 5700
 Wire Wire Line
-	7500 5400 7500 5450
-NoConn ~ 7450 5200
+	2100 5600 2200 5600
+Wire Wire Line
+	2200 5500 2100 5500
+Wire Wire Line
+	2100 5400 2200 5400
+Wire Wire Line
+	2200 5300 2100 5300
 $EndSCHEMATC

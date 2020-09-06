@@ -18,6 +18,15 @@ const uint8_t FOURCHARS[] = "WURT";
 
 /*** setup procedure (run once at cold boot) */
 void setup() {
+
+	pinMode(4,OUTPUT);
+	pinMode(8,INPUT_PULLUP);
+	pinMode(9,INPUT_PULLUP);
+	pinMode(10,INPUT_PULLUP);
+
+	Buttons.setup(5);
+	Buttons.begin(0b11100000000,5,10);
+
 	/*** SETUP section */
 	// the twelite main class
 	the_twelite
@@ -36,12 +45,36 @@ void setup() {
 
 	/*** INIT message */
 	Serial << "--- WirelessUart (id=" << int(uid) << ") ---" << mwx::crlf;
-
+	delay(1000);
 	Wire.begin();
+	
 }
-
+bool pin6 = false;
 /*** loop procedure (called every event) */
 void loop() {
+	if(Buttons.available()){
+		uint32_t bm,cm;
+		Buttons.read(bm,cm);
+		if( (bm & (1UL << 8)) & (cm & (1UL << 8))){
+			Serial << "Button8 Changed " << pin6 << mwx::crlf;
+			pin6 = !pin6;
+			if(pin6 == 1){
+				digitalWrite(4,HIGH);
+			}else{
+				digitalWrite(4,LOW);
+			}
+		}
+		if( (bm & (1UL << 9)) & (cm & (1UL << 9))){
+			Serial << "Button9s Changed" << mwx::crlf;
+		}
+		if( (bm & (1UL << 10)) & (cm & (1UL << 10))){
+			Serial << "Button10 Changed" << mwx::crlf;
+		}
+	}
+
+
+
+
     // read from serial
 	while(Serial.available())  {
 		if (SerialParser.parse(Serial.read())) {
