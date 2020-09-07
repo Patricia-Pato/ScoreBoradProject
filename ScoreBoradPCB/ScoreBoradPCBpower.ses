@@ -3,6 +3,80 @@
   (base_design ScoreBoradPCB.dsn)
   (placement
     (resolution um 10)
+    (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal
+      (place J8 1016000 -1041400 front 180)
+    )
+    (component Resistor_SMD:R_0603_1608Metric
+      (place R45 1644650 -723900 front 270)
+      (place R44 1625600 -723900 front 270)
+      (place R43 1606550 -723900 front 270)
+      (place R61 1035050 -768350 back 180)
+      (place R60 1035050 -742950 back 180)
+      (place R59 1016000 -1270000 back 90)
+      (place R58 1016000 -1155700 back 90)
+      (place R57 1727200 -723900 back 90)
+      (place R56 1854200 -723900 back 90)
+      (place R55 1752600 -723900 back 90)
+      (place R54 1879600 -723900 back 90)
+      (place R53 1778000 -723900 back 90)
+      (place R52 1803400 -723900 back 90)
+      (place R51 1828800 -723900 back 90)
+      (place R63 1257300 -800100 back 270)
+      (place R62 1187450 -800100 back 270)
+      (place R49 1790700 -723900 front 270)
+      (place R48 1752600 -723900 front 270)
+      (place R47 1708150 -723900 front 270)
+      (place R46 1689100 -723900 front 270)
+      (place R42 1485900 -1117600 back 0)
+      (place R41 1435100 -1149350 back 0)
+      (place R40 1435100 -1117600 back 0)
+      (place R39 1435100 -1181100 back 0)
+      (place R38 1289050 -1130300 back 270)
+      (place R37 1257300 -1130300 back 270)
+      (place R36 1193800 -1130300 back 90)
+      (place R35 1485900 -984250 back 0)
+      (place R34 1435100 -1016000 back 0)
+      (place R33 1435100 -984250 back 0)
+      (place R32 1435100 -1047750 back 0)
+      (place R31 1289050 -996950 back 270)
+      (place R30 1257300 -996950 back 270)
+      (place R29 1193800 -996950 back 90)
+      (place R28 1485900 -850900 back 0)
+      (place R27 1435100 -882650 back 0)
+      (place R26 1435100 -850900 back 0)
+      (place R25 1435100 -933450 back 0)
+      (place R24 1289050 -863600 back 270)
+      (place R23 1257300 -863600 back 270)
+      (place R22 1193800 -865125 back 90)
+      (place R21 1968500 -1460500 back 0)
+      (place R20 1968500 -1384300 back 0)
+      (place R19 1968500 -1352550 back 0)
+      (place R18 1828800 -1460500 back 0)
+      (place R17 1828800 -1384300 back 0)
+      (place R16 1828800 -1352550 back 0)
+      (place R15 1689100 -1460500 back 0)
+      (place R14 1689100 -1384300 back 0)
+      (place R13 1689100 -1352550 back 0)
+      (place R12 1549400 -1460500 back 0)
+      (place R11 1549400 -1384300 back 0)
+      (place R10 1549400 -1352550 back 0)
+      (place R9 1409700 -1460500 back 0)
+      (place R8 1409700 -1384300 back 0)
+      (place R7 1409700 -1352550 back 0)
+      (place R6 1270000 -1460500 back 0)
+      (place R5 1270000 -1384300 back 0)
+      (place R4 1270000 -1352550 back 0)
+      (place R3 1130300 -1460500 back 0)
+      (place R2 1130300 -1384300 back 0)
+      (place R1 1130300 -1352550 back 0)
+      (place C7 1397000 -1143000 back 270)
+      (place C6 1289050 -1181100 back 270)
+      (place C5 1397000 -1009650 back 270)
+      (place C4 1289050 -1047750 back 270)
+      (place C3 1397000 -876300 back 270)
+      (place C2 1289050 -914400 back 270)
+      (place C1 1092200 -1130300 back 90)
+    )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
       (place U7 1346200 -1136650 back 180)
       (place U5 1346200 -1003300 back 180)
@@ -25,76 +99,6 @@
       (place SW2 1181100 -584200 front 0)
       (place SW1 1181100 -679450 front 0)
     )
-    (component Resistor_SMD:R_0603_1608Metric
-      (place R61 1035050 -768350 back 180)
-      (place R60 1035050 -742950 back 180)
-      (place R59 1016000 -1270000 back 90)
-      (place R58 1016000 -1155700 back 90)
-      (place R57 1727200 -723900 back 90)
-      (place R56 1854200 -723900 back 90)
-      (place R55 1752600 -723900 back 90)
-      (place R54 1879600 -723900 back 90)
-      (place R53 1778000 -723900 back 90)
-      (place R52 1803400 -723900 back 90)
-      (place R51 1828800 -723900 back 90)
-      (place R50 1257300 -800100 back 270)
-      (place R49 1187450 -800100 back 270)
-      (place R48 1416050 -844550 front 270)
-      (place R47 1377950 -844550 front 270)
-      (place R46 1333500 -844550 front 270)
-      (place R45 1295400 -882650 front 270)
-      (place R44 1295400 -844550 front 270)
-      (place R43 1257300 -844550 front 270)
-      (place R42 1485900 -1117600 back 0)
-      (place R41 1435100 -1149350 back 0)
-      (place R40 1435100 -1117600 back 0)
-      (place R39 1435100 -1181100 back 0)
-      (place R38 1289050 -1130300 back 270)
-      (place R37 1257300 -1130300 back 270)
-      (place R36 1193800 -1130300 back 90)
-      (place R35 1485900 -984250 back 0)
-      (place R34 1435100 -1016000 back 0)
-      (place R33 1435100 -984250 back 0)
-      (place R32 1435100 -1047750 back 0)
-      (place R31 1289050 -996950 back 270)
-      (place R30 1257300 -996950 back 270)
-      (place R29 1193800 -996950 back 90)
-      (place R28 1485900 -850900 back 0)
-      (place R27 1435100 -882650 back 0)
-      (place R26 1435100 -850900 back 0)
-      (place R25 1435100 -933450 back 0)
-      (place R24 1289050 -863600 back 270)
-      (place R23 1257300 -863600 back 270)
-      (place R22 1193800 -865125 back 90)
-      (place R21 1968500 -1466850 back 0)
-      (place R20 1968500 -1390650 back 0)
-      (place R19 1968500 -1358900 back 0)
-      (place R18 1828800 -1466850 back 0)
-      (place R17 1828800 -1390650 back 0)
-      (place R16 1828800 -1358900 back 0)
-      (place R15 1689100 -1466850 back 0)
-      (place R14 1689100 -1390650 back 0)
-      (place R13 1689100 -1358900 back 0)
-      (place R12 1549400 -1466850 back 0)
-      (place R11 1549400 -1390650 back 0)
-      (place R10 1549400 -1358900 back 0)
-      (place R9 1409700 -1466850 back 0)
-      (place R8 1409700 -1390650 back 0)
-      (place R7 1409700 -1358900 back 0)
-      (place R6 1270000 -1466850 back 0)
-      (place R5 1270000 -1390650 back 0)
-      (place R4 1270000 -1358900 back 0)
-      (place R3 1130300 -1466850 back 0)
-      (place R2 1130300 -1390650 back 0)
-      (place R1 1130300 -1358900 back 0)
-      (place C7 1397000 -1143000 back 270)
-      (place C6 1289050 -1181100 back 270)
-      (place C5 1397000 -1009650 back 270)
-      (place C4 1289050 -1047750 back 270)
-      (place C3 1397000 -876300 back 270)
-      (place C2 1289050 -914400 back 270)
-      (place C1 1092200 -1130300 back 90)
-    )
     (component "Package_TO_SOT_SMD:SOT-23"
       (place Q24 1225550 -800100 back 180)
       (place Q23 1485900 -1149350 back 90)
@@ -103,32 +107,29 @@
       (place Q18 1225550 -996950 back 180)
       (place Q17 1485900 -882650 back 90)
       (place Q15 1225550 -863600 back 180)
-      (place Q13 1968500 -1428750 back 90)
-      (place Q11 1828800 -1428750 back 90)
-      (place Q9 1689100 -1441450 back 90)
-      (place Q7 1549400 -1428750 back 90)
-      (place Q5 1409700 -1441450 back 90)
-      (place Q3 1270000 -1428750 back 90)
-      (place Q1 1130300 -1428750 back 90)
+      (place Q13 1968500 -1422400 back 90)
+      (place Q11 1828800 -1422400 back 90)
+      (place Q9 1689100 -1435100 back 90)
+      (place Q7 1549400 -1422400 back 90)
+      (place Q5 1409700 -1435100 back 90)
+      (place Q3 1270000 -1422400 back 90)
+      (place Q1 1130300 -1422400 back 90)
     )
     (component "Package_TO_SOT_SMD:TO-252-3_TabPin4"
       (place Q22 1612900 -1140550 back 90)
       (place Q19 1612900 -1000850 back 90)
       (place Q16 1619250 -861150 back 90)
-      (place Q14 1898650 -1418500 back 270)
-      (place Q12 1758950 -1418500 back 270)
-      (place Q10 1619250 -1418500 back 270)
-      (place Q8 1479550 -1418500 back 270)
-      (place Q6 1339850 -1418500 back 270)
-      (place Q4 1200150 -1418500 back 270)
-      (place Q2 1060450 -1418500 back 270)
+      (place Q14 1898650 -1412150 back 270)
+      (place Q12 1758950 -1412150 back 270)
+      (place Q10 1619250 -1412150 back 270)
+      (place Q8 1479550 -1412150 back 270)
+      (place Q6 1339850 -1412150 back 270)
+      (place Q4 1200150 -1412150 back 270)
+      (place Q2 1060450 -1412150 back 270)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
       (place J10 1016000 -1206500 front 0)
       (place J9 1016000 -1092200 front 0)
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal
-      (place J8 1016000 -1041400 front 180)
     )
     (component "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
       (place J7 1949450 -742950 front 270)
@@ -147,11 +148,10 @@
       (place DS1 1625600 -660400 front 90)
     )
     (component LED_SMD:LED_0603_1608Metric
-      (place D11 1416050 -939800 front 90)
-      (place D10 1377950 -939800 front 90)
-      (place D9 1333500 -939800 front 90)
-      (place D8 1295400 -939800 front 90)
-      (place D7 1257300 -939800 front 90)
+      (place D10 1790700 -768350 front 90)
+      (place D9 1752600 -768350 front 90)
+      (place D8 1708150 -768350 front 90)
+      (place D7 1644650 -768350 front 90)
     )
     (component "Diode_SMD:D_SOD-123F"
       (place D6 1346200 -1193800 back 0)
@@ -208,7 +208,8 @@
         (wire
           (path B.Cu 40000
             1689100 -1143000
-            1644650 -1098550
+            1689100 -1129500
+            1658150 -1098550
             1640900 -1098550
           )
           (type protect)
@@ -217,9 +218,9 @@
       (net /Cathode_g
         (wire
           (path B.Cu 20000
-            1898650 -1397500
-            1898650 -1208790
-            1964440 -1143000
+            1898650 -1391150
+            1898650 -1225550
+            1966300 -1157900
             1966300 -1143000
           )
           (type protect)
@@ -242,9 +243,9 @@
       (net /Cathode_f
         (wire
           (path B.Cu 20000
-            1758950 -1397500
-            1758950 -1308890
-            1924840 -1143000
+            1758950 -1391150
+            1758950 -1327150
+            1926700 -1159400
             1926700 -1143000
           )
           (type protect)
@@ -267,11 +268,11 @@
       (net /Cathode_e
         (wire
           (path B.Cu 20000
-            1619250 -1397500
-            1619250 -1345500
-            1631250 -1333500
-            1694740 -1333500
-            1885240 -1143000
+            1619250 -1391150
+            1619250 -1339150
+            1631250 -1327150
+            1720850 -1327150
+            1887100 -1160900
             1887100 -1143000
           )
           (type protect)
@@ -294,11 +295,11 @@
       (net /Cathode_d
         (wire
           (path B.Cu 20000
-            1479550 -1397500
-            1479550 -1345500
-            1516950 -1308100
-            1680540 -1308100
-            1845640 -1143000
+            1479550 -1391150
+            1479550 -1339150
+            1516950 -1301750
+            1708150 -1301750
+            1847500 -1162400
             1847500 -1143000
           )
           (type protect)
@@ -321,10 +322,11 @@
       (net /Cathode_c
         (wire
           (path B.Cu 20000
-            1339850 -1397500
-            1339850 -1345500
-            1402650 -1282700
-            1668200 -1282700
+            1339850 -1391150
+            1339850 -1339150
+            1402650 -1276350
+            1693640 -1276350
+            1807900 -1162090
             1807900 -1143000
           )
           (type protect)
@@ -347,25 +349,26 @@
       (net /Cathode_b
         (wire
           (path B.Cu 20000
-            1768300 -1143000
-            1654000 -1257300
-            1260410 -1257300
-            1200150 -1317560
-            1200150 -1397500
-          )
-          (type protect)
-        )
-        (wire
-          (path B.Cu 20000
-            1768300 -1143000
-            1768300 -1003300
-          )
-          (type protect)
-        )
-        (wire
-          (path B.Cu 20000
             1768300 -1003300
             1768300 -863600
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 20000
+            1200150 -1391150
+            1200150 -1339150
+            1288350 -1250950
+            1679440 -1250950
+            1768300 -1162090
+            1768300 -1143000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 20000
+            1768300 -1143000
+            1768300 -1003300
           )
           (type protect)
         )
@@ -373,33 +376,26 @@
       (net /Cathode_a
         (wire
           (path B.Cu 20000
-            1060450 -1397500
-            1060450 -1384300
-            1212850 -1231900
-            1645450 -1231900
-            1728700 -1148650
+            1060450 -1391150
+            1060450 -1388150
+            1223050 -1225550
+            1665240 -1225550
+            1728700 -1162090
             1728700 -1143000
           )
           (type protect)
         )
         (wire
           (path B.Cu 20000
-            1060450 -1397500
-            1060450 -1379550
+            1728700 -1143000
+            1728700 -1003300
           )
           (type protect)
         )
         (wire
           (path B.Cu 20000
+            1728700 -1003300
             1728700 -863600
-            1728700 -1003300
-          )
-          (type protect)
-        )
-        (wire
-          (path B.Cu 20000
-            1728700 -1003300
-            1728700 -1143000
           )
           (type protect)
         )
@@ -407,41 +403,8 @@
       (net +48V
         (wire
           (path B.Cu 40000
-            1530350 -955700
-            1530350 -825500
-          )
-          (type protect)
-        )
-        (wire
-          (path B.Cu 40000
-            1612900 -1161550
-            1596500 -1161550
-            1530350 -1095400
-            1530350 -955700
-          )
-          (type protect)
-        )
-        (wire
-          (path B.Cu 40000
-            1530000 -530000
-            1927000 -530000
-            1949450 -552450
-          )
-          (type protect)
-        )
-        (wire
-          (path B.Cu 40000
-            1530350 -809650
-            1530350 -530350
-            1530000 -530000
-          )
-          (type protect)
-        )
-        (wire
-          (path B.Cu 40000
-            1066800 -552450
-            1089250 -530000
-            1530000 -530000
+            1536700 -816000
+            1536700 -755650
           )
           (type protect)
         )
@@ -449,7 +412,32 @@
           (path B.Cu 40000
             1619250 -882150
             1602850 -882150
-            1530350 -809650
+            1536700 -816000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 40000
+            1066800 -552450
+            1085850 -533400
+            1536700 -533400
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 40000
+            1536700 -533400
+            1930400 -533400
+            1949450 -552450
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 40000
+            1612900 -1161550
+            1596500 -1161550
+            1536700 -1101750
+            1536700 -962050
           )
           (type protect)
         )
@@ -457,21 +445,42 @@
           (path B.Cu 40000
             1612900 -1021850
             1596500 -1021850
-            1530350 -955700
+            1536700 -962050
           )
           (type protect)
         )
         (wire
           (path B.Cu 40000
-            1530350 -955700
-            1530350 -825500
+            1536700 -962050
+            1536700 -908050
           )
           (type protect)
         )
         (wire
           (path B.Cu 40000
-            1530350 -825500
-            1530350 -809650
+            1536700 -908050
+            1536700 -816000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 40000
+            1536700 -816000
+            1536700 -755650
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 40000
+            1536700 -755650
+            1536700 -533400
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 40000
+            1536700 -962050
+            1536700 -908050
           )
           (type protect)
         )

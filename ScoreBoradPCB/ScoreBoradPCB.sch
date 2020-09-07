@@ -97,10 +97,6 @@ Text Label 2800 4400 0    50   ~ 0
 Address_1
 Text Label 2800 4300 0    50   ~ 0
 Address_2
-Text Label 2800 4200 0    50   ~ 0
-LED
-Wire Wire Line
-	2700 4200 2800 4200
 Wire Wire Line
 	2700 4300 2800 4300
 Wire Wire Line
@@ -2522,17 +2518,6 @@ F 3 "~" H 2100 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R50
-U 1 1 5F95E20C
-P 2450 8500
-F 0 "R50" H 2520 8546 50  0000 L CNN
-F 1 "300" H 2520 8455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 8500 50  0001 C CNN
-F 3 "~" H 2450 8500 50  0001 C CNN
-	1    2450 8500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+48V #PWR060
 U 1 1 5F960D39
 P 1050 8250
@@ -2577,10 +2562,6 @@ Text Label 2100 8150 1    50   ~ 0
 ShutDown
 Wire Wire Line
 	2100 8150 2100 8350
-Text Label 2450 8150 1    50   ~ 0
-LED
-Wire Wire Line
-	2450 8150 2450 8350
 $Comp
 L power:GND #PWR061
 U 1 1 5FA5950D
@@ -2625,19 +2606,6 @@ F 3 "" H 2100 10050 50  0001 C CNN
 	1    2100 10050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR067
-U 1 1 5FA59F0C
-P 2450 10050
-F 0 "#PWR067" H 2450 9800 50  0001 C CNN
-F 1 "GND" H 2455 9877 50  0000 C CNN
-F 2 "" H 2450 10050 50  0001 C CNN
-F 3 "" H 2450 10050 50  0001 C CNN
-	1    2450 10050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 10050 2450 9900
 Wire Wire Line
 	2100 9900 2100 10050
 Wire Wire Line
@@ -3521,17 +3489,6 @@ F 3 "~" H 2100 9750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D11
-U 1 1 60D8E0D0
-P 2450 9750
-F 0 "D11" V 2489 9632 50  0000 R CNN
-F 1 "LED" V 2398 9632 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 2450 9750 50  0001 C CNN
-F 3 "~" H 2450 9750 50  0001 C CNN
-	1    2450 9750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R43
 U 1 1 6124C8BD
 P 1050 8500
@@ -3576,6 +3533,5 @@ Wire Wire Line
 	1750 8650 1750 9600
 Wire Wire Line
 	2100 8650 2100 9600
-Wire Wire Line
-	2450 8650 2450 9600
+NoConn ~ 2700 4200
 $EndSCHEMATC
