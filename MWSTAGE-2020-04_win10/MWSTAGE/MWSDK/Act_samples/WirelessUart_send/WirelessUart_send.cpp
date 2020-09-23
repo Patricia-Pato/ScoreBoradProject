@@ -38,8 +38,6 @@ void setup() {
 
 	/*** INIT message */
 	Serial << "--- WirelessUart (id=" << int(uid) << ") ---" << mwx::crlf;
-
-	Wire.begin();
 }
 
 /*** loop procedure (called every event) */
@@ -71,10 +69,6 @@ void loop() {
 			serparser_attach pout;
 			pout.begin(PARSER::ASCII, buf.begin(), buf.size(), buf.size());
 			Serial << pout;
-			
-			Wire.beginTransmission(8);
-			Wire.write(p,8);
-			Wire.endTransmission();
 			
 		}
 	}
