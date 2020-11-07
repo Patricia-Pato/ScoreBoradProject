@@ -431,20 +431,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\makot\\.nuget\\packages\\": {}
+    "C:\\Users\\makot\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\makot\\OneDrive\\ScoreBorad\\ScoreBorad_Controller\\ScoreBorad_Controller\\ScoreBorad_Controller.csproj",
+      "projectUniqueName": "C:\\Users\\makot\\Desktop\\ScoreBoradProject\\ScoreBorad_Controller\\ScoreBorad_Controller\\ScoreBorad_Controller.csproj",
       "projectName": "ScoreBorad_Controller",
-      "projectPath": "C:\\Users\\makot\\OneDrive\\ScoreBorad\\ScoreBorad_Controller\\ScoreBorad_Controller\\ScoreBorad_Controller.csproj",
+      "projectPath": "C:\\Users\\makot\\Desktop\\ScoreBoradProject\\ScoreBorad_Controller\\ScoreBorad_Controller\\ScoreBorad_Controller.csproj",
       "packagesPath": "C:\\Users\\makot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\makot\\OneDrive\\ScoreBorad\\ScoreBorad_Controller\\ScoreBorad_Controller\\obj\\",
+      "outputPath": "C:\\Users\\makot\\Desktop\\ScoreBoradProject\\ScoreBorad_Controller\\ScoreBorad_Controller\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\makot\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -482,6 +487,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -490,7 +501,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
