@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\makot\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\makot\\.nuget\\packages"
+      "C:\\Users\\makot\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }

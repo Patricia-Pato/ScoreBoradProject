@@ -45,6 +45,7 @@
                         <Setter Property="Template" Value="{StaticResource buttonTemplate}"/>
                     </Style>
                 </StackPanel.Resources>
+                <ToggleButton Content="OK" Width="100" Height="100"/>
                 <StackPanel Orientation="Vertical">
                     <Button Content="+100" Command="{Binding Panel1.PlusHun}"/>
                     <Button Content="-100" Command="{Binding Panel1.MinusHun}"/>
