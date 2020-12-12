@@ -44,6 +44,17 @@ void setup() {
 bool pin6 = false;
 /*** loop procedure (called every event) */
 void loop() {
+	Wire.beginTransmission(0);
+	Wire.write(0x9A);
+	Wire.write(0x02);
+	Wire.write(0x00);
+	Wire.endTransmission();
+
+	delay(1000);
+
+
+
+
     // read from serial
 	while(Serial.available())  {
 		if (SerialParser.parse(Serial.read())) {
