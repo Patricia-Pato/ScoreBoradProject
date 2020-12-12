@@ -1,6 +1,7 @@
 // use twelite mwx c++ template library
 #include <TWELITE>
 #include <NWK_SIMPLE>
+#include <BRD_APPTWELITE>
 
 /*** Config part */
 // application ID
@@ -12,6 +13,7 @@ uint8_t uid = 0;
 
 /*** function prototype */
 MWX_APIRET transmit(uint8_t addr, const uint8_t* b, const uint8_t* e);
+void sendScore();
 
 /*** application defs */
 const uint8_t FOURCHARS[] = "WURT";
@@ -19,6 +21,20 @@ const uint8_t FOURCHARS[] = "WURT";
 /*** setup procedure (run once at cold boot) */
 void setup() {
 
+
+	//button
+	pinMode(11,INPUT_PULLUP);
+	pinMode(12,INPUT_PULLUP);
+	pinMode(13,INPUT_PULLUP);
+	pinMode(16,INPUT_PULLUP);
+	Buttons.setup(5);
+	Buttons.begin(pack_bits(
+						BRD_APPTWELITE::PIN_DI1,
+						BRD_APPTWELITE::PIN_DI2,
+						BRD_APPTWELITE::PIN_DI3,
+						BRD_APPTWELITE::PIN_DI4),
+					5, 		// history count
+					4); 
 	/*** SETUP section */
 	// the twelite main class
 	the_twelite
@@ -37,20 +53,38 @@ void setup() {
 
 	/*** INIT message */
 	Serial << "--- WirelessUart (id=" << int(uid) << ") ---" << mwx::crlf;
-	delay(1000);
 	Wire.begin();
 	
 }
-bool pin6 = false;
+
+unsigned int score[4] = {0,0,0,0};
+unsigned char mode[4] = {0,0,0,0};
+
 /*** loop procedure (called every event) */
 void loop() {
-	Wire.beginTransmission(0);
-	Wire.write(0x9A);
-	Wire.write(0x02);
-	Wire.write(0x00);
-	Wire.endTransmission();
+	if(Buttons.available()){
+		uint32_t bm,cm;
+		Buttons.read(bm,cm);
+		if(!(bm & (1UL << 12))){
+			Serial << "roll start" << mwx::crlf;
+			mode[0] = mode[1] = mode[2] = mode[3] = 0b1110;
+		}
+		if(!(bm & (1UL << 13))){
+			Serial << "stop one" << mwx::crlf;
+			mode[0] = mode[1] = mode[2] = mode[3] = mode[0] & 0b1100;
+		}
+		if(!(bm & (1UL << 11))){
+			Serial << "stop ten" << mwx::crlf;
+			mode[0] = mode[1] = mode[2] = mode[3] = mode[0] & 0b1010;
+		}
+		if(!(bm & (1UL << 16))){
+			Serial << "stop hun" << mwx::crlf;
+			mode[0] = mode[1] = mode[2] = mode[3] = mode[0] & 0b0110;
+		}
+		Serial << int(mode[0]) << mwx::crlf;
+		sendScore();
 
-	delay(1000);
+	}
 
 
 
@@ -82,26 +116,17 @@ void loop() {
 			serparser_attach pout;
 			pout.begin(PARSER::ASCII, buf.begin(), buf.size(), buf.size());
 			Serial << pout;
-			p += 4;
-			Wire.beginTransmission(0);
-			Wire.write(p,2);
-			Wire.endTransmission();
-			p+=2;
-			delay(10);
-			Wire.beginTransmission(1);
-			Wire.write(p,2);
-			Wire.endTransmission();
-			p+=2;
-			delay(10);
-			Wire.beginTransmission(2);
-			Wire.write(p,2);
-			Wire.endTransmission();
-			p+=2;
-			delay(10);
-			Wire.beginTransmission(3);
-			Wire.write(p,2);
-			Wire.endTransmission();
 		}
+	}
+}
+
+void sendScore(){
+	for(int i=0;i<4;i++){
+		Wire.beginTransmission(i);
+		Wire.write(score[i] & 0xFF);
+		Wire.write(score[i] >> 8);
+		Wire.write(mode[i]);
+		Wire.endTransmission();
 	}
 }
 
