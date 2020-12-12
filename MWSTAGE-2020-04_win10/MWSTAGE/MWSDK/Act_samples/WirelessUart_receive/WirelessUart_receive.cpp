@@ -63,6 +63,10 @@ unsigned char mode[4] = {0,0,0,0};
 /*** loop procedure (called every event) */
 void loop() {
 	if(Buttons.available()){
+		Wire.requestFrom(0,2);
+		score[0] = Wire.read() + (Wire.read() << 8);
+		Serial << int(score[0]) << mwx::crlf;
+
 		uint32_t bm,cm;
 		Buttons.read(bm,cm);
 		if(!(bm & (1UL << 12))){
