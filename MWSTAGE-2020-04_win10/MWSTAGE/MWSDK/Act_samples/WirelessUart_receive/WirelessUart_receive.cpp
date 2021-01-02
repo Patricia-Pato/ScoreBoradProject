@@ -63,8 +63,12 @@ unsigned char mode[4] = {0,0,0,0};
 /*** loop procedure (called every event) */
 void loop() {
 	if(Buttons.available()){
-		Wire.requestFrom(0,2);
-		score[0] = Wire.read() + (Wire.read() << 8);
+		for(int i=0;i<4;i++){
+			Wire.requestFrom(i,2);
+			score[i] = Wire.read() + (Wire.read() << 8);
+			delay(10);
+		}
+
 		Serial << int(score[0]) << mwx::crlf;
 
 		uint32_t bm,cm;
@@ -120,6 +124,16 @@ void loop() {
 			serparser_attach pout;
 			pout.begin(PARSER::ASCII, buf.begin(), buf.size(), buf.size());
 			Serial << pout;
+			p+=4;
+			score[0] = *p++;
+			score[0] += (*p++) << 8;
+			score[1] = *p++;
+			score[1] += (*p++) << 8;
+			score[2] = *p++;
+			score[2] += (*p++) << 8;
+			score[3] = *p++;
+			score[3] += (*p++) << 8;
+			sendScore();
 		}
 	}
 }
@@ -131,6 +145,7 @@ void sendScore(){
 		Wire.write(score[i] >> 8);
 		Wire.write(mode[i]);
 		Wire.endTransmission();
+		delay(10);
 	}
 }
 
