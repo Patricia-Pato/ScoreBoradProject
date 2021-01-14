@@ -1,3 +1,4 @@
+
 // use twelite mwx c++ template library
 #include <TWELITE>
 #include <NWK_SIMPLE>
@@ -127,12 +128,16 @@ void loop() {
 			p+=4;
 			score[0] = *p++;
 			score[0] += (*p++) << 8;
+			mode[0] = *p++;
 			score[1] = *p++;
 			score[1] += (*p++) << 8;
+			mode[1] = *p++;
 			score[2] = *p++;
 			score[2] += (*p++) << 8;
+			mode[2] = *p++;
 			score[3] = *p++;
 			score[3] += (*p++) << 8;
+			mode[3] = *p;
 			sendScore();
 		}
 	}

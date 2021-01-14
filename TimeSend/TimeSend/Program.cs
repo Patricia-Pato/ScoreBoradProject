@@ -12,18 +12,18 @@ namespace TimeSend
     {
         static void Main(string[] args)
         {
-            Timer timer = new Timer(1000);
+            Timer timer = new Timer(500);
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
             SerialPort.Open();
             Console.ReadLine();
         }
-        static SerialPort SerialPort = new SerialPort("COM4", 115200, Parity.None, 8, StopBits.One);
+        static SerialPort SerialPort = new SerialPort("COM10", 115200, Parity.None, 8, StopBits.One);
 
         private static void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
             DateTime time = DateTime.Now;
-            Console.WriteLine("a");
+            Console.WriteLine(time);
             Send(time.Second,time.Minute,time.Hour,time.Day);
         }
 
@@ -47,6 +47,7 @@ namespace TimeSend
             checksum.CopyTo(vs, header.Length + data.Length);
             try
             {
+                Console.WriteLine(BitConverter.ToString(vs));
                 SerialPort.Write(vs, 0, vs.Length);
             }
             catch (Exception ex)

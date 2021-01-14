@@ -54,6 +54,7 @@
                         <Button Content="+1" Command="{Binding Block1.Plus1}"/>
                         <Button Content="-1" Command="{Binding Block1.Minus1}"/>
                     </StackPanel>
+                    <ToggleButton Content="消灯" Width="200" IsChecked="{Binding Block1.Disable}"/>
                 </StackPanel>
             </StackPanel>
         </GroupBox>
@@ -80,6 +81,7 @@
                         <Button Content="+1" Command="{Binding Block2.Plus1}"/>
                         <Button Content="-1" Command="{Binding Block2.Minus1}"/>
                     </StackPanel>
+                    <ToggleButton Content="消灯" Width="200" IsChecked="{Binding Block2.Disable}"/>
                 </StackPanel>
             </StackPanel>
         </GroupBox>
@@ -106,6 +108,7 @@
                         <Button Content="+1" Command="{Binding Block3.Plus1}"/>
                         <Button Content="-1" Command="{Binding Block3.Minus1}"/>
                     </StackPanel>
+                    <ToggleButton Content="消灯" Width="200" IsChecked="{Binding Block3.Disable}"/>
                 </StackPanel>
             </StackPanel>
         </GroupBox>
@@ -132,6 +135,7 @@
                         <Button Content="+1" Command="{Binding Block4.Plus1}"/>
                         <Button Content="-1" Command="{Binding Block4.Minus1}"/>
                     </StackPanel>
+                    <ToggleButton Content="消灯" Width="200" IsChecked="{Binding Block4.Disable}"/>
                 </StackPanel>
             </StackPanel>
         </GroupBox>
@@ -139,12 +143,12 @@
         <GroupBox Grid.Row="2" Grid.ColumnSpan="2" Margin="20">
             <StackPanel Orientation="Horizontal" >
                 <TextBlock Text="点数を隠す" VerticalAlignment="Center"/>
-                <ToggleButton Content="100の桁" Width="250"/>
-                <ToggleButton Content="10の桁" Width="250"/>
-                <ToggleButton Content="1の桁" Width="250"/>
+                <ToggleButton Content="100の桁" Width="250" IsChecked="{Binding Toggle100}"/>
+                <ToggleButton Content="10の桁" Width="250" IsChecked="{Binding Toggle10}"/>
+                <ToggleButton Content="1の桁" Width="250" IsChecked="{Binding Toggle1}"/>
             </StackPanel>
         </GroupBox>
 
-        <Button Content="送信" Grid.Row="2" Grid.Column="1" Width="400" HorizontalAlignment="Right" Margin="20"/>
+        <Button Content="送信" Grid.Row="2" Grid.Column="1" Width="400" HorizontalAlignment="Right" Command="{Binding Send}" Margin="20"/>
     </Grid>
 </Window>

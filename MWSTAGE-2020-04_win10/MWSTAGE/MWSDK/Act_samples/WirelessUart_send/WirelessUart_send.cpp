@@ -67,7 +67,7 @@ void loop() {
 					, make_pair(p+4, rx.get_payload().end()) );	// data body
 
 			serparser_attach pout;
-			pout.begin(PARSER::ASCII, buf.begin(), buf.size(), buf.size());
+			pout.begin(PARSER::BINARY, buf.begin(), buf.size(), buf.size());
 			Serial << pout;
 			
 		}

@@ -39,6 +39,13 @@ namespace ScoreBorad2.ViewModels
             }
         }
 
+        private bool _disable;
+        public bool Disable
+        {
+            get { return this._disable; }
+            set { SetProperty(ref this._disable, value); }
+        }
+
 
         //ボタンコマンド割り当て
         #region

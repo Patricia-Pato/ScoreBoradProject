@@ -30,3 +30,6 @@ C:\Users\makot\Desktop\ScoreBoradProject\ScoreBorad2\ScoreBorad2\obj\Debug\Score
 C:\Users\makot\Desktop\ScoreBoradProject\ScoreBorad2\ScoreBorad2\obj\Debug\ScoreBorad2.csproj.CoreCompileInputs.cache
 C:\Users\makot\Desktop\ScoreBoradProject\ScoreBorad2\ScoreBorad2\obj\Debug\ScoreBorad2.exe
 C:\Users\makot\Desktop\ScoreBoradProject\ScoreBorad2\ScoreBorad2\obj\Debug\ScoreBorad2.pdb
+C:\Users\makot\Desktop\ScoreBoradProject\ScoreBorad2\ScoreBorad2\bin\Debug\System.IO.Ports.dll
+C:\Users\makot\Desktop\ScoreBoradProject\ScoreBorad2\ScoreBorad2\bin\Debug\System.IO.Ports.xml
+C:\Users\makot\Desktop\ScoreBoradProject\ScoreBorad2\ScoreBorad2\obj\Debug\ScoreBorad2.csproj.CopyComplete

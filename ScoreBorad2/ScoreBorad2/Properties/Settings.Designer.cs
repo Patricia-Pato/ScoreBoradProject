@@ -58,5 +58,17 @@ namespace ScoreBorad2.Properties {
                 return ((string)(this["BlockName4"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("COM10")]
+        public string COMport {
+            get {
+                return ((string)(this["COMport"]));
+            }
+            set {
+                this["COMport"] = value;
+            }
+        }
     }
 }
