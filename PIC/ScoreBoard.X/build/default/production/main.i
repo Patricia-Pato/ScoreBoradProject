@@ -14,7 +14,7 @@
 #pragma config MCLRE = ON
 #pragma config CP = OFF
 #pragma config CPD = OFF
-#pragma config BOREN = ON
+#pragma config BOREN = OFF
 #pragma config CLKOUTEN = OFF
 #pragma config IESO = ON
 #pragma config FCMEN = ON
@@ -25,9 +25,7 @@
 #pragma config PLLEN = ON
 #pragma config STVREN = ON
 #pragma config BORV = LO
-#pragma config LVP = ON
-
-
+#pragma config LVP = OFF
 
 
 
@@ -4840,14 +4838,13 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 28 "C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\\pic\\include\\xc.h" 2 3
-# 36 "main.c" 2
-# 50 "main.c"
-unsigned char data[2];
-int count = 0;
+# 34 "main.c" 2
+# 44 "main.c"
+unsigned char recv_data[3];
+unsigned char recv_count = 0;
+unsigned int recv_score = 0;
 unsigned char buf = 0;
-unsigned char io = 0;
 unsigned char send = 0;
-
 
 char segment[10] = {
 
@@ -4863,19 +4860,22 @@ char segment[10] = {
     0b0010000,
 };
 
-int score = 0;
+unsigned char roll_number = 0;
+unsigned char roll[3] = {0,0,0};
+unsigned char disable = 0;
+
 int score_dig[3] = {0,0,0};
+
 void main(void) {
     OSCCON = 0b01110000;
     OPTION_REGbits.nWPUEN = 0x00;
 
     ANSELA = 0x00;
     TRISA = 0x00;
-    ANSELB = 0x00;
-    TRISB = 0xFF;
-    WPUB = 0xFF;
+    ANSELB = 0xC0;
+    TRISB = 0x3F;
+    WPUB = 0x3F;
     TRISC = 0b1111000;
-
 
     SSPSTAT = 0b10000000;
     SSPCON1 = 0b00100110;
@@ -4883,7 +4883,6 @@ void main(void) {
     unsigned char address = (RC6) + (RC5 << 1);
     SSPADD = (address << 1) & 0xFE;
     SSPMSK = 0xFE;
-
 
     OPTION_REGbits.PS = 0b100;
     OPTION_REGbits.PSA = 0;
@@ -4895,6 +4894,7 @@ void main(void) {
     SSPIF = 0;
     SSPIE = 1;
     GIE = 1;
+
     while(1){
         if(PORTB != 0x3F){
             T0IE = 0;
@@ -4910,33 +4910,42 @@ void main(void) {
             if(score_dig[1] > 9)score_dig[1] = 0;
             if(score_dig[0] < 0)score_dig[0] = 9;
             if(score_dig[0] > 9)score_dig[0] = 0;
-            score = score_dig[0] * 100 + score_dig[1] * 10 + score_dig[2];
             T0IE = 1;
-            _delay((unsigned long)((50)*(32000000/4000.0)));
+            _delay((unsigned long)((100)*(32000000/4000.0)));
         }
     }
     return;
 }
+
 
 void __attribute__((picinterrupt(("")))) ICR(void){
     if(SSPIF){
         if((SSPSTAT & 0x04) == 0){
             if((SSPSTAT & 0x20) == 0){
                 buf = SSPBUF;
-                count = 0;
+                recv_count = 0;
             }else{
-                data[count++] = SSPBUF;
-                score = data[0] + (data[1] << 8);
+                recv_data[recv_count++] = SSPBUF;
+                recv_score = recv_data[0] + (recv_data[1] << 8);
+                roll[0] = (recv_data[2] & 0b1000) >> 3;
+                roll[1] = (recv_data[2] & 0b100) >> 2;
+                roll[2] = (recv_data[2] & 0b10) >> 1;
+                disable = recv_data[2] & 0b1;
+                score_dig[0] = recv_score / 100;
+                score_dig[1] = recv_score % 100 / 10;
+                score_dig[2] = recv_score % 10;
             }
             SSPCON1 |= 0x10;
         }else{
+            static int score;
+            score = score_dig[0] * 100 + score_dig[1] * 10 + score_dig[2];
             if((SSPSTAT & 0x01) != 0){
                 buf = SSPBUF;
-                SSPBUF = send;
+                SSPBUF = score & 0xFF;
                 SSPCON1 |= 0x10;
             }else{
                 if((SSPCON2 & 0x40) == 0){
-                    SSPBUF = 0;
+                    SSPBUF = score >> 8;
                     SSPCON1 |= 0x10;
                 }else{
 
@@ -4948,38 +4957,41 @@ void __attribute__((picinterrupt(("")))) ICR(void){
 
     if(T0IF == 1){
         PORTC = 0b111;
-        _delay((unsigned long)((50)*(32000000/4000000.0)));
+        _delay((unsigned long)((200)*(32000000/4000000.0)));
         static char index = 1;
         index = (index % 3) + 1;
-        score_dig[0] = score / 100;
-        score_dig[1] = score % 100 / 10;
-        score_dig[2] = score % 100 % 10;
-        for(int i=0;i<32;i++){
-            if(index == 1){
-                if(i < 32){
-                    PORTC = 0b110;
-                    PORTA = segment[score_dig[2]];
-                }else{
-                    PORTC = 0b111;
-                }
-            }
-            if(index == 2){
-                if(i < 32){
-                    PORTC = 0b101;
-                    PORTA = segment[score_dig[1]];
-                }else{
-                    PORTC = 0b111;
-                }
 
+        if(index == 1){
+            PORTC = 0b110;
+            if(roll[2]){
+                PORTA = segment[roll_number] + (disable << 7);
+            }else{
+                PORTA = segment[score_dig[2]] + (disable << 7);
             }
-            if(index == 3){
-                if(i < 32){
-                    PORTC = 0b011;
-                    PORTA = segment[score_dig[0]];
-                }else{
-                    PORTC = 0b111;
-                }
+        }
+        if(index == 2){
+            PORTC = 0b101;
+            if(roll[1]){
+                PORTA = segment[roll_number] + (disable << 7);
+            }else{
+                PORTA = segment[score_dig[1]] + (disable << 7);
             }
+        }
+        if(index == 3){
+            PORTC = 0b011;
+            if(roll[0]){
+                PORTA = segment[roll_number] + (disable << 7);
+            }else{
+                PORTA = segment[score_dig[0]] + (disable << 7);
+            }
+        }
+        RA7 = disable;
+        static int count = 0;
+        count++;
+        if(count > 100){
+            roll_number++;
+            if(roll_number > 9) roll_number = 0;
+            count = 0;
         }
         T0IF = 0;
     }
