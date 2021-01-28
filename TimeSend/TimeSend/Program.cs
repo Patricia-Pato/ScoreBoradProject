@@ -22,20 +22,21 @@ namespace TimeSend
 
         private static void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            DateTime time = DateTime.Now;
-            Console.WriteLine(time);
-            Send(time.Second,time.Minute,time.Hour,time.Day);
+            
+            Send();
         }
 
-        private static void Send(int num1,int num2,int num3,int num4)
+        public static void Send()
         {
-            byte[] header = new byte[] { 0xA5, 0x5A, 0x80, 0x09 };
-            byte[] data = new byte[] {0x01,(byte)(num1),(byte)(num1 >> 8)
-                                          ,(byte)(num2),(byte)(num2 >> 8)
-                                          ,(byte)(num3),(byte)(num3 >> 8)
-                                          ,(byte)(num4),(byte)(num4 >> 8)};
+            DateTime time = DateTime.Now;
+            Console.WriteLine(time);
+            byte[] header = new byte[] { 0xA5, 0x5A, 0x80, 0x0D };
+            byte[] data = new byte[] {0x01,(byte)(time.Second),(byte)(time.Second >> 8),0
+                                          ,(byte)(0),(byte)(0 >> 8),0
+                                          ,(byte)(0),(byte)(0 >> 8),0
+                                          ,(byte)(0),(byte)(0 >> 8),0};
             byte xor = data[0];
-            for (int i = 1; i < 9; i++)
+            for (int i = 1; i < data.Length; i++)
             {
                 xor = (byte)(xor ^ data[i]);
             }
@@ -47,12 +48,11 @@ namespace TimeSend
             checksum.CopyTo(vs, header.Length + data.Length);
             try
             {
-                Console.WriteLine(BitConverter.ToString(vs));
                 SerialPort.Write(vs, 0, vs.Length);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("eroor");
+                Console.WriteLine(ex.Message);
             }
         }
     }

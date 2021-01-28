@@ -1,0 +1,1625 @@
+Archive member included because of file (symbol)
+
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_event.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (PRSEV_u8RegisterEx)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_main.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (sToCoNet_Context)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_utils.o)
+                              ToCoNet_main.o (symbol from plugin) (ToCoNet_u32GetVersion)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_Tx.o)
+                              objs_BLUE/mwx_appcore.o (symbol from plugin) (ToCoNet_vReg_mod_Tx_Standard)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_TxRxQueue.o)
+                              objs_BLUE/mwx_appcore.o (symbol from plugin) (ToCoNet_vReg_mod_TxRxQueueSmall)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_Nwk_Common.o)
+                              ToCoNet_main.o (symbol from plugin) (ToCoNet_vRxProc_Mod)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_Channel_Mgr.o)
+                              ToCoNet_mod_Tx.o (symbol from plugin) (ToCoNet_ChMgr_bCh_OnTx)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(Version.o)
+                              ToCoNet_utils.o (symbol from plugin) (au8ToCoNetVersionInfo)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(AppQueueApi_ToCoNet.o)
+                              ToCoNet_main.o (symbol from plugin) (_u32_INT_ticktimer)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(AppStart.o)
+                              (AppColdStart)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(getMacAddr.o)
+                              ToCoNet_main.o (symbol from plugin) (ToCoNet_u32GetSerialOnBoot)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(mac.o)
+                              ToCoNet_main.o (symbol from plugin) (Mac_vInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(AES_CCM.o)
+                              AppStart.o (symbol from plugin) (bAES_CCM_KeyReg)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(no_ack_handler.o)
+                              AppStart.o (symbol from plugin) (vInstallNoAckHandler)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(Version.o)
+                              ToCoNet_utils.o (symbol from plugin) (au8ToCoNetExtVersionInfo)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(serial.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (SERIAL_bTxChar)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(uart.o)
+                              serial.o (symbol from plugin) (UART_vInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(ByteQueue.o)
+                              ToCoNet_main.o (symbol from plugin) (QUEUE__vInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(ccitt8.o)
+                              AppStart.o (symbol from plugin) (u8CCITT8)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(fprintf.o)
+                              objs_BLUE/sensors/legacy/sensor_driver.o (symbol from plugin) (vfPrintf)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(utils.o)
+                              objs_BLUE/mwx_appcore.o (symbol from plugin) (vTimerConfig)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(ccm.o)
+                              AES_CCM.o (symbol from plugin) (ccm_init_and_key)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(Version.o)
+                              ToCoNet_utils.o (symbol from plugin) (au8ToCoNetUtilsVersionInfo)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(aescrypt.o)
+                              ccm.o (symbol from plugin) (aes_encrypt)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(aeskey.o)
+                              ccm.o (symbol from plugin) (aes_encrypt_key)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(aestab.o)
+                              aeskey.o (symbol from plugin) (t_im)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twenvm.o)
+                              objs_BLUE/mwx_settings.o (symbol from plugin) (TWENVM_bRead)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweinteractive.o)
+                              objs_BLUE/mwx_settings.o (symbol from plugin) (TWEINTRCT_pscInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweinteractive_settings.o)
+                              objs_BLUE/mwx_settings.o (symbol from plugin) (TWEINTCT_vSerUpdateScreen_settings)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweinteractive_defmenus.o)
+                              objs_BLUE/mwx_settings.o (symbol from plugin) (TWEINTCT_vSerUpdateScreen_defmenus)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweinteractive_nvmutils.o)
+                              objs_BLUE/mwx_settings.o (symbol from plugin) (TWEINTCT_vSerUpdateScreen_nvmutils)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweprintf.o)
+                              objs_BLUE/mwx_debug.o (symbol from plugin) (TWE_fprintf)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesercmd_ascii.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (TWESERCMD_Ascii_vInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesercmd_binary.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (TWESERCMD_Binary_vInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesercmd_plus3.o)
+                              tweinteractive.o (symbol from plugin) (TWESERCMD_Plus3_u8Parse)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweserial.o)
+                              tweinteractive.o (symbol from plugin) (_TWE_fputs)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesettings.o)
+                              tweinteractive_settings.o (symbol from plugin) (TWESTG_u32GetU32FrUDatum)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesettings_std.o)
+                              tweinteractive_settings.o (symbol from plugin) (TWESTG_u32SaveDataToAppStrg)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesettings_validator.o)
+                              objs_BLUE/mwx_settings_default.o (symbol from plugin) (TWESTGS_VLD_u32MinMax)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twestring.o)
+                              twesettings_validator.o (symbol from plugin) (TWESTR_u8SplitTokens)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweserial_jen.o)
+                              objs_BLUE/mwx_appcore.o (symbol from plugin) (TWETERM_vInitJen)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesysutils.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (TWESYSUTL_vWaitPoll)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(printf.o)
+                              objs_BLUE/mwx_settings.o (symbol from plugin) (snprintf_)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twecrc8.o)
+                              twenvm.o (symbol from plugin) (TWE_CRC8_u8Calc)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweinputstring.o)
+                              tweinteractive.o (symbol from plugin) (TWEINPSTR_vInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a(AppApi.o)
+                              (pvAppApiDefGetMacHandle)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a(AppApiSleep.o)
+                              (vAppApiDefSaveMacSettings)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_main.o)
+                              AppApi.o (symbol from plugin) (MAC_pvCtor)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_mcps.o)
+                              AppApi.o (symbol from plugin) (MAC_vHandleMcpsReqRsp)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_mlme.o)
+                              AppApi.o (symbol from plugin) (MAC_vHandleMlmeReqRsp)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_pib.o)
+                              AppStart.o (symbol from plugin) (MAC_psPibGetHandle)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_pib_mlme.o)
+                              mac_main.o (symbol from plugin) (mac_vPibSetDefaults)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_pmic.o)
+                              mac_main.o (symbol from plugin) (vPMICreset)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_ind.o)
+                              AppApi.o (symbol from plugin) (MAC_vRegisterMlmeDcfmIndCallbacks)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_scan.o)
+                              mac_main.o (symbol from plugin) (mac_eScanInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_lp.o)
+                              mac_pmic.o (symbol from plugin) (g_sLP)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(MCPS.o)
+                              mac_mcps.o (symbol from plugin) (vTAM_MCPSdataRequest)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(phy_pib.o)
+                              AppApi.o (symbol from plugin) (phy_ePibGet)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM.o)
+                              MCPS.o (symbol from plugin) (bTAMinPAN)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMCO.o)
+                              TAM.o (symbol from plugin) (vTAMCOsetCoordinator)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMDE.o)
+                              TAM.o (symbol from plugin) (vTAMDEdetermineNullState)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_MEM.o)
+                              TAM.o (symbol from plugin) (vMEMreset)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_MLME.o)
+                              mac_scan.o (symbol from plugin) (vMLMEbeaconNotify)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_TAH.o)
+                              TAMCO.o (symbol from plugin) (vTAHsetCutOff)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_TAI.o)
+                              TAM.o (symbol from plugin) (vTAIsetCapTime)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_TAT.o)
+                              TAMDE.o (symbol from plugin) (vTATstartReceiveAt)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMcommon.o)
+                              mac_scan.o (symbol from plugin) (bTACassessBeaconForPayload)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMevent.o)
+                              mac_lp.o (symbol from plugin) (vTAMinsertEvent)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMqueue.o)
+                              TAMcommon.o (symbol from plugin) (vTAQaddToFifo)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMrxEnable.o)
+                              TAMevent.o (symbol from plugin) (vTAMRXEint2Fired)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMsecurity.o)
+                              TAMcommon.o (symbol from plugin) (vTSCgetIncomingInfo)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMsideways.o)
+                              mac_pmic.o (symbol from plugin) (eTAStransmitRequest)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMtime.o)
+                              TAM.o (symbol from plugin) (vTTIBLETimerExpired)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_AES.o)
+                              TAMsecurity.o (symbol from plugin) (u8TAM_AES_WriteAuxilliarySecurityHeaderIntoBuffer)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(Endian.o)
+                              TAM_AES.o (symbol from plugin) (vFromU16ToLe)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_acl.o)
+                              TAMsecurity.o (symbol from plugin) (MAC_u8AclFindInfo)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_misc.o)
+                              mac_mlme.o (symbol from plugin) (vMAC_MISCpollRequest)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libTimerServer_JN516x.a(tsv_main.o)
+                              AppApiSleep.o (symbol from plugin) (s_sTimerList)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a(xcv_main.o)
+                              AppApi.o (symbol from plugin) (XCV_vCtor)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a(xcv_access.o)
+                              mac_main.o (symbol from plugin) (XCV_vDevWriteIER)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a(xcv_isr.o)
+                              AppApi.o (symbol from plugin) (vXCV_IntHandlerPhy)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AEScoprocessorCCM.o)
+                              AES_CCM.o (symbol from plugin) (bACI_CCMstar)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AES_CCM_Star.o)
+                              TAM_AES.o (symbol from plugin) (vACI_OptimisedCcmStar)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AEScoprocessorAPI.o)
+                              AES_CCM_Star.o (symbol from plugin) (vACI_CmdWaitBusy)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Analogue.o)
+                              objs_BLUE/mwx_appcore.o (symbol from plugin) (bAHI_APRegulatorEnabled)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_BrownOut.o)
+                              objs_BLUE/mwx_appcore.o (symbol from plugin) (vAHI_BrownOutConfigure)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Dio.o)
+                              objs_BLUE/mwx_periph_dio.o (symbol from plugin) (vAHI_DioSetDirection)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_PulseCounter.o)
+                              objs_BLUE/mwx_appcore.o (symbol from plugin) (bAHI_Read16BitCounter)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Reset.o)
+                              objs_BLUE/mwx_settings.o (symbol from plugin) (vAHI_SwReset)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Spi.o)
+                              objs_BLUE/sensors/mwx_sns_MC3630.o (symbol from plugin) (vAHI_SpiConfigure)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_System.o)
+                              AppApiSleep.o (symbol from plugin) (u8AHI_PowerStatus)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Timer.o)
+                              utils.o (symbol from plugin) (vAHI_TimerEnable)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_TimerInt.o)
+                              AppQueueApi_ToCoNet.o (symbol from plugin) (vAHI_Timer0RegisterCallback)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Uart.o)
+                              uart.o (symbol from plugin) (vAHI_UartSetBaudDivisor)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_WakeTimer.o)
+                              ToCoNet_utils.o (symbol from plugin) (vAHI_WakeTimerEnable)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Flash.o)
+                              AHI_System.o (symbol from plugin) (vAHI_FlashAndEEPROMControllerIntHandler)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Infrared.o)
+                              AHI_TimerInt.o (symbol from plugin) (vAHI_IntHandlerInfrared)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_DO.o)
+                              objs_BLUE/mwx_periph_dio.o (symbol from plugin) (bAHI_DoEnableOutputs)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(InternalFlashApi.o)
+                              AHI_Flash.o (symbol from plugin) (bFlashErase)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_FlashIndexSector.o)
+                              AppStart.o (symbol from plugin) (bAHI_ReadMACID)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Si.o)
+                              objs_BLUE/sensors/legacy/SMBus.o (symbol from plugin) (vAHI_SiMasterConfigure)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_TickTimer.o)
+                              AppQueueApi_ToCoNet.o (symbol from plugin) (vAHI_TickTimerInit)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+                              AppApi.o (symbol from plugin) (vAHI_InterruptSetPriority)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Init.o)
+                              AppStart.o (symbol from plugin) (u32AHI_Init)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_SpiSlave.o)
+                              AHI_Init.o (symbol from plugin) (vAHI_IntHandlerSpiSlave)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroInt_ba.o)
+                              ToCoNet_main.o (symbol from plugin) (vMicroIntEnableOnly)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                              AHI_Reset.o (symbol from plugin) (vMicroSyscall)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(Heap.o)
+                              (u32HeapStart)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                              (_exception_external_interrupt)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(eeprom_6x.o)
+                              twenvm.o (symbol from plugin) (EEP_6x_bRead)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a(AppHousekeeping.o)
+                              mac_scan.o (symbol from plugin) (sAppHousekeeping)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AEScoprocessorAPIinterrupts.o)
+                              AHI_Init.o (symbol from plugin) (vACI_IntHandlerAes)
+C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(EEP_EEPROM.o)
+                              eeprom_6x.o (symbol from plugin) (u16AHI_InitialiseEEP)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (memset)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+                              objs_BLUE/WirelessUart_receive.o (symbol from plugin) (strncmp)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans4.ltrans.o (memcmp)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o (memcpy)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o (__udivsi3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__divsi3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__umodsi3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__modsi3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__fixunsdfsi)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__udivdi3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__umoddi3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__adddf3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__divdf3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__nedf2)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__gedf2)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__ledf2)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__muldf3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__subdf3)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__fixdfsi)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__floatsidf)
+c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+                              C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o (__floatunsidf)
+
+Allocating common symbols
+Common symbol       size              file
+
+_TWENET_TX_POWER_MAX
+                    0x1               AppStart.o (symbol from plugin)
+EEPROM_6X_USER_SIZE
+                    0x2               eeprom_6x.o (symbol from plugin)
+apvHwIndBufferData  0x2c              AppQueueApi_ToCoNet.o (symbol from plugin)
+prMAC_TofMlmeReqHandler
+                    0x4               mac_mlme.o (symbol from plugin)
+apvMlmeIndBufferData
+                    0x14              AppQueueApi_ToCoNet.o (symbol from plugin)
+_TWENET_TX_POWER_VALUE
+                    0x1               AppStart.o (symbol from plugin)
+g_tSpiConfiguration
+                    0x4               AHI_Flash.o (symbol from plugin)
+u8TAM_TxStatusOverride
+                    0x1               TAMevent.o (symbol from plugin)
+prMAC_TofRxHandler  0x4               TAMcommon.o (symbol from plugin)
+_MAC_u8TxFailReason
+                    0x1               mac.o (symbol from plugin)
+EEPROM_6X_USER_SEGMENTS
+                    0x2               eeprom_6x.o (symbol from plugin)
+apvMcpsIndBufferData
+                    0x14              AppQueueApi_ToCoNet.o (symbol from plugin)
+bAHI_ExtendedTemperatureOperation
+                    0x1               AHI_System.o (symbol from plugin)
+bMAC_DiscardUnsuccessfulAssocResponses
+                    0x1               mac_pmic.o (symbol from plugin)
+u8Msq               0x1               TAM_TAT.o (symbol from plugin)
+g_bLegacyHwBugEmulation
+                    0x1               AES_CCM_Star.o (symbol from plugin)
+EEPROM_6X_SEGMENT_SIZE
+                    0x2               eeprom_6x.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 objs_BLUE/sensors/legacy/SMBus.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans9.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans12.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans14.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans17.ltrans.o
+ .text.exit     0x0000000000000000        0x3 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+ .text.startup  0x0000000000000000        0x2 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+ .ctors         0x0000000000000000        0x4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans19.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans20.ltrans.o
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x38 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .eh_frame      0x0000000000000000       0x38 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .text          0x0000000000000000        0x0 objs_BLUE/sensors/legacy/sensor_driver.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/sensors/legacy/SHTC3.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/sensors/legacy/LTR308ALS.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_debug.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L110serial_jen7vOutputEcPv
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE15_cbTweNet_vMainEPv
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE19_cbTweNet_vNwkEventEPvRNS0_13packet_ev_nwkE
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vTxEventEPvRNS0_12packet_ev_txE
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L114processev_crtpINS0_9NwkSimpleEE14vProcessEvCoreEP8_tsEvent7teEventm
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE9_on_eventEPvmRm
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vRxEventEPvRNS0_9packet_rxE
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vHwEventEPvmm
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE17_cbTweNet_u8HwIntEPvmm
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L111_printobj_2ImhE9_do_printEPvPFvcS3_ES3_
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L113serial_parserINS0_10alloc_heapIhEEE4putcINS0_10serial_jenEEEiiP15_tsTWETERM_FILE
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L113serial_parserINS0_12alloc_attachIhEEE4putcINS0_10serial_jenEEEiiP15_tsTWETERM_FILE
+                0x0000000000000000        0x0 objs_BLUE/WirelessUart_receive.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_utils_crc8.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_appcore.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_memory.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_periph.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_periph_dio.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_periph_buttons.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_periph_analogue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_stream.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_duplicate_checker.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_settings.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/mwx_settings_default.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/boards/mwx_brd_pal_amb.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/boards/mwx_brd_pal_mot.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/boards/mwx_brd_pal_mag.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/boards/mwx_brd_monostick.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/boards/mwx_brd_app_twelite.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/networks/mwx_nwk_simple.o (symbol from plugin)
+ .gnu.linkonce.t._ZZN3mwx2L110twenet_mac8transmitERNS0_9packet_txEE5u8seq
+                0x0000000000000000        0x0 objs_BLUE/networks/mwx_nwk_simple.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/sensors/legacy/probe.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 objs_BLUE/sensors/mwx_sns_MC3630.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_event.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_utils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_Tx.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_TxRxQueue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_Nwk_Common.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_Channel_Mgr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Version.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppQueueApi_ToCoNet.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppStart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 getMacAddr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AES_CCM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 no_ack_handler.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Version.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 uart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ByteQueue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ccitt8.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 fprintf.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 utils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ccm.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Version.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 aescrypt.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 aeskey.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 aestab.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twenvm.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweinteractive.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweinteractive_settings.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweinteractive_defmenus.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweinteractive_nvmutils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweprintf.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesercmd_ascii.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesercmd_binary.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesercmd_plus3.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweserial.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesettings.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesettings_std.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesettings_validator.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twestring.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweserial_jen.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesysutils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 printf.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twecrc8.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweinputstring.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppApi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppApiSleep.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_mcps.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_mlme.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pib.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pib_mlme.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pmic.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_ind.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_scan.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_lp.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 MCPS.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 phy_pib.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMCO.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMDE.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_MEM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_MLME.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAH.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAI.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAT.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMcommon.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMevent.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMqueue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMrxEnable.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMsecurity.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMsideways.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMtime.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_AES.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Endian.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_acl.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_misc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tsv_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_access.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_isr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorCCM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AES_CCM_Star.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorAPI.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Analogue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_BrownOut.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Dio.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_PulseCounter.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Reset.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Spi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_System.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Timer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_TimerInt.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Uart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_WakeTimer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Flash.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Infrared.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_DO.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 InternalFlashApi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_FlashIndexSector.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Si.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_TickTimer.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+ .bss           0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+ .text          0x0000000000000000        0x0 AHI_Init.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_SpiSlave.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 MicroInt_ba.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .data          0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .bss           0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .text          0x0000000000000000        0x0 Heap.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .data          0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .bss           0x0000000000000000        0x0 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .text          0x0000000000000000        0x0 eeprom_6x.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppHousekeeping.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorAPIinterrupts.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 EEP_EEPROM.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+ .bss           0x0000000000000000        0x0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x0000000000080000 0x0000000000028000
+ram              0x000000000400004c 0x0000000000007fb4
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD objs_BLUE/sensors/legacy/SMBus.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans2.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans4.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans8.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans9.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans11.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans12.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans13.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans14.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans15.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans16.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans17.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans19.ltrans.o
+LOAD C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans20.ltrans.o
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD objs_BLUE/sensors/legacy/sensor_driver.o
+LOAD objs_BLUE/sensors/legacy/SHTC3.o
+LOAD objs_BLUE/sensors/legacy/LTR308ALS.o
+LOAD objs_BLUE/mwx_debug.o
+LOAD objs_BLUE/WirelessUart_receive.o
+LOAD objs_BLUE/mwx_utils_crc8.o
+LOAD objs_BLUE/mwx_appcore.o
+LOAD objs_BLUE/mwx_memory.o
+LOAD objs_BLUE/mwx_periph.o
+LOAD objs_BLUE/mwx_periph_dio.o
+LOAD objs_BLUE/mwx_periph_buttons.o
+LOAD objs_BLUE/mwx_periph_analogue.o
+LOAD objs_BLUE/mwx_stream.o
+LOAD objs_BLUE/mwx_duplicate_checker.o
+LOAD objs_BLUE/mwx_settings.o
+LOAD objs_BLUE/mwx_settings_default.o
+LOAD objs_BLUE/boards/mwx_brd_pal_amb.o
+LOAD objs_BLUE/boards/mwx_brd_pal_mot.o
+LOAD objs_BLUE/boards/mwx_brd_pal_mag.o
+LOAD objs_BLUE/boards/mwx_brd_monostick.o
+LOAD objs_BLUE/boards/mwx_brd_app_twelite.o
+LOAD objs_BLUE/networks/mwx_nwk_simple.o
+LOAD objs_BLUE/sensors/legacy/probe.o
+LOAD objs_BLUE/sensors/mwx_sns_MC3630.o
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a
+START GROUP
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libTimerServer_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libTOF_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libPDM_EEPROM_JN516x_NO_RTOS.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a
+LOAD C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a
+END GROUP
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libstdc++.a
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libm.a
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a
+LOAD c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+                0x0000000000001000                _minimum_heap_size = 0x1000
+                0x0000000000000c00                _stack_size = 0xc00
+                0x0000000000080038                _exception_vsr_table = 0x80038
+                0x0000000004000000                pSPIflashFncTable = 0x4000000
+                0x0000000000001000                _minimum_heap_size = 0x1000
+                0x0000000000000c00                _stack_size = 0xc00
+                0x0000000000000044                restore_state = 0x44
+                0x000000000000004a                bZSPIWaitWIPClear = 0x4a
+                0x0000000000000050                u16ZSPIflashRDID = 0x50
+                0x0000000000000056                u8SelectFlashChipType = 0x56
+                0x000000000000005c                memcpy = 0x5c
+                0x0000000000000066                vBootFlashProg = 0x66
+                [0x0000000000001000]                _minimum_heap_size = DEFINED (_minimum_heap_size)?_minimum_heap_size:0xd16
+                0x0000000000000000                _SwConfig = (DEFINED (g_bSWConf_Debug) | (DEFINED (g_bSWConf_AltDebugPort) << 0x1))
+
+.version        0x000000000007fffc        0x4
+                0x000000000007fffc        0x4 LONG 0x4030008
+
+.bir            0x0000000000080000       0x10
+                0x0000000000080000                _flash_start = ABSOLUTE (.)
+                0x0000000000080000                _flash_beg = ABSOLUTE (.)
+                0x0000000000080000        0x4 LONG 0x12345678
+                0x0000000000080004        0x4 LONG 0x11223344
+                0x0000000000080008        0x4 LONG 0x55667788
+                0x000000000008000c        0x1 BYTE 0x8
+                0x000000000008000d        0x1 BYTE 0x1
+                0x000000000008000e        0x2 SHORT 0x0
+
+.flashheader    0x0000000000080010       0x28
+                0x0000000000080010        0x4 LONG 0x0
+                0x0000000000080014        0x4 LONG 0x0
+                0x0000000000080018        0x4 LONG 0x0
+                0x000000000008001c        0x2 SHORT 0x0
+                0x000000000008001e        0x2 SHORT 0x0 ABSOLUTE (_SwConfig)
+                0x0000000000080020                _enc_start = ABSOLUTE (.)
+                0x0000000000080020        0x4 LONG 0x101a0 ABSOLUTE (_image_len)
+                0x0000000000080024        0x4 LONG 0x90190 ABSOLUTE (_flash_data_start)
+                0x0000000000080028        0x2 SHORT 0x13 ((ABSOLUTE (_ram_data_start) / 0x4) & 0xffff)
+                0x000000000008002a        0x2 SHORT 0x4 ((ABSOLUTE (_ram_data_len) / 0x4) & 0xffff)
+                0x000000000008002c        0x2 SHORT 0x17 ((ABSOLUTE (_bss_start) / 0x4) & 0xffff)
+                0x000000000008002e        0x2 SHORT 0x590 ((ABSOLUTE (_bss_len) / 0x4) & 0xffff)
+                0x0000000000080030        0x4 LONG 0x86f38 ABSOLUTE (AppWarmStart)
+                0x0000000000080034        0x4 LONG 0x87998 ABSOLUTE (AppColdStart)
+                0x0000000000000000                _enc_offset = (_enc_start & 0xf)
+                0x0000000000000044                PROVIDE (vException_BusError, restore_state)
+                0x0000000000000044                PROVIDE (vException_UnalignedAccess, restore_state)
+                0x0000000000000044                PROVIDE (vException_IllegalInstruction, restore_state)
+                0x0000000000000044                PROVIDE (vException_SysCall, restore_state)
+                0x0000000000000044                PROVIDE (vException_Trap, restore_state)
+                0x0000000000000044                PROVIDE (vException_StackOverflow, restore_state)
+                0x0000000000080038                . = ABSOLUTE (_exception_vsr_table)
+
+.vsr_table      0x0000000000080038       0x18
+                0x0000000000080038        0x4 LONG 0x44 ABSOLUTE (vException_BusError)
+                0x000000000008003c        0x4 LONG 0x44 ABSOLUTE (vException_UnalignedAccess)
+                0x0000000000080040        0x4 LONG 0x44 ABSOLUTE (vException_IllegalInstruction)
+                0x0000000000080044        0x4 LONG 0x44 ABSOLUTE (vException_SysCall)
+                0x0000000000080048        0x4 LONG 0x44 ABSOLUTE (vException_Trap)
+                0x000000000008004c        0x4 LONG 0x44 ABSOLUTE (vException_StackOverflow)
+
+.vsr_handlers   0x0000000000080050       0xaa
+ *(.vsr_handlers)
+ .vsr_handlers  0x0000000000080050       0xaa C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                0x0000000000080050                _exception_external_interrupt
+                0x00000000000800f8                _default_vsr_dummy
+
+.rodata         0x0000000000080100      0x668
+ *(.rodata*)
+ .rodata        0x0000000000080100      0x1e2 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x00000000000802e2       0x78 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+                                         0x7d (size before relaxing)
+ .rodata        0x000000000008035a        0x5 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+ *fill*         0x000000000008035f        0x1 00
+ .rodata        0x0000000000080360       0xd4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans2.ltrans.o
+                0x0000000000080360                s_aprScanHandleEvt.18321
+                0x0000000000080390                apvActionCalls
+                0x0000000000080418                aprLPBMacVectorRamTable
+                0x000000000008042c                psTamMacContext
+                0x0000000000080430                psTAMcontext
+ .rodata.str1.1
+                0x0000000000080434       0x24 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+ .rodata        0x0000000000080458       0x16 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+                0x0000000000080458                gbHighPowerMode
+                0x0000000000080459                gu8ModuleID
+ *fill*         0x000000000008046e        0x2 00
+ .rodata        0x0000000000080470       0x30 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+                0x0000000000080470                aeTimerInterruptDeviceIDlut.28713
+ .rodata.str1.1
+                0x00000000000804a0       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+ *fill*         0x00000000000804b2        0x6 00
+ .rodata        0x00000000000804b8       0x50 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+ .rodata.str1.1
+                0x0000000000080508       0x8b C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+ *fill*         0x0000000000080593        0x1 00
+ .rodata        0x0000000000080594       0x1c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+                0x0000000000080594                psTamXcvContext
+ .rodata.str1.1
+                0x00000000000805b0       0x2d C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans8.ltrans.o
+                                         0x30 (size before relaxing)
+ .rodata        0x00000000000805dd        0x6 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans9.ltrans.o
+                0x00000000000805dd                aeXcvPhyEvtToScanEvt.5394.18324
+ .rodata.str1.1
+                0x00000000000805e3       0x27 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+ *fill*         0x000000000008060a        0x2 00
+ .rodata        0x000000000008060c       0x7c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+                0x0000000000080640                u32MacLow_TOCOS
+                0x0000000000080644                u32MacHigh_TOCOS
+ .rodata        0x0000000000080688        0x4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans11.ltrans.o
+ .rodata        0x000000000008068c       0x14 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans13.ltrans.o
+ .rodata        0x00000000000806a0        0xa C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans14.ltrans.o
+ .rodata.str1.1
+                0x00000000000806aa       0x3f C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans16.ltrans.o
+ *fill*         0x00000000000806e9        0x3 00
+ .rodata        0x00000000000806ec       0x30 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans17.ltrans.o
+                0x00000000000806ec                au32TimerBaseAddress
+                0x0000000000080700                CSWTCH.35.28660.28660
+                0x0000000000080714                au32UartAddrOffset
+ .rodata.str1.1
+                0x000000000008071c       0x11 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+                                         0x22 (size before relaxing)
+ *fill*         0x000000000008072d        0x3 00
+ .rodata        0x0000000000080730       0x38 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+                0x0000000000080730                asStateFuncTbl.8247
+ .rodata.str1.1
+                0x0000000000000000        0xe C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans19.ltrans.o
+
+.text           0x0000000000080768     0xfa27
+ *(.text*)
+ .text          0x0000000000080768      0xe00 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+                0x0000000000080768                mac_vLPBAdjustBeaconOffset
+                0x00000000000807c5                mac_u32LPBGetBeaconTimeout
+                0x00000000000807ce                eWEnDTmrExpiry.17962
+                0x00000000000807d9                eWEnDEdDone.17959
+                0x0000000000080834                eGenlDontCare.17956
+                0x0000000000080839                eGenlIllegal.17581
+                0x0000000000080840                u32GetTimer0
+                0x0000000000080847                vSetTimer0
+                0x0000000000080856                _out_fct.12634
+                0x0000000000080868                _out_null.12640
+                0x000000000008086b                SerCmdBinary_Output.11920
+                0x00000000000808d4                SerCmdBinary_u8Parse.11873
+                0x00000000000809dc                SerCmdAscii_u8Parse.11805
+                0x0000000000080b45                vOutputStream.11786
+                0x0000000000080b51                vHandlerPatch.10181
+                0x0000000000080b88                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vHwEventEPvmm.local.208
+                0x0000000000080b8b                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE17_cbTweNet_u8HwIntEPvmm.local.207
+                0x0000000000080b90                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vTxEventEPvRNS0_12packet_ev_txE.local.212
+                0x0000000000080baa                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE19_cbTweNet_vNwkEventEPvRNS0_13packet_ev_nwkE.local.213
+                0x0000000000080bbb                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE15_cbTweNet_vMainEPv.local.214
+                0x0000000000080bbe                _ZN3mwx2L110serial_jen7vOutputEcPv.local.215
+                0x0000000000080bca                vTAMinsertEvent
+                0x0000000000080c30                vTACsetTxFrameDefaults
+                0x0000000000080c56                u8TACgetHeaderSize
+                0x0000000000080c93                u32TACpayloadToU32M
+                0x0000000000080cb4                vTACu32ToPayloadM
+                0x0000000000080ccc                bTACframeInProgress
+                0x0000000000080cf6                bTACassessBeaconForPayload
+                0x0000000000080d47                bIsBbcSafeForTx
+                0x0000000000080d7c                vTATwriteAclMaterialToHardware
+                0x0000000000080da1                vTATsetBLE
+                0x0000000000080dd8                vTATgetFramePayload
+                0x0000000000080df5                eTATreadTXstatus
+                0x0000000000080e3b                vTAHsetPhyStateDirect.part.0.22446
+                0x0000000000080e57                vMEMreturn
+                0x0000000000080ec8                vTACinformOriginator
+                0x0000000000080eea                pvMEMget
+                0x0000000000080f16                vTAMDEdetermineNullState
+                0x0000000000080f30                vTAMCOupdatePendingList
+                0x0000000000081002                vTAMCOsetCoordinator
+                0x0000000000081028                vPhySetChannel
+                0x0000000000081041                eScanHandleEvt.part.0.17992
+                0x000000000008106a                mac_eDcfmIndPost
+                0x000000000008108b                mac_psDcfmIndGetBuf
+                0x00000000000810ac                vMLMErxEnableConfirm
+                0x00000000000810de                vMLMEcommStatus
+                0x0000000000081141                vMLMEcommStatusFromFrame
+                0x0000000000081185                vMLMEsyncLoss
+                0x00000000000811b8                vPMICpostFailedAssocDcfm
+                0x00000000000811f0                vPMICassocReqTO_2.16409
+                0x0000000000081207                MAC_vPibSetPanId
+                0x0000000000081222                vHandleTofRequest.14515
+                0x0000000000081225                vAppApiDefSetPrbsSeed
+                0x0000000000081249                u8CCITT8
+                0x000000000008126f                Mac_vInit
+                0x00000000000812bb                bAES_CCM_KeyReg
+                0x00000000000812fa                bFifoPush.8891
+                0x0000000000081333                vAppQApiPostMlme.8877
+                0x0000000000081352                vAppQApiPostMcps.8884
+                0x000000000008136d                pvFifoPull.8888
+                0x0000000000081394                psAppQApiGetMlmeBuffer.8874
+                0x000000000008139c                psAppQApiGetMcpsBuffer.8881
+                0x00000000000813a4                PRSEV_vSetState
+                0x00000000000813b4                PRSEV_vProcessEv_core.7331
+                0x0000000000081456                PRSEV_vProcessEvPost
+                0x0000000000081488                _PRSEV_vProcessEvSingle
+                0x0000000000081495                ToCoNet_vMacStart
+                0x00000000000814a2                mwx::L1::duplciate_checker::_node_ele_init(mwx::L1::duplciate_checker::_node_ele*)
+                0x00000000000814c1                _ZN3mwx2L17smplbufIhNS0_12alloc_attachIhEEE9push_backERKh.local.51
+                0x00000000000814de                _ZN3mwx2L113serial_parserINS0_10alloc_heapIhEEEC1Ev.local.71
+                0x0000000000081515                _ZN3mwx2L112appdefs_virt8on_eventEmRm.local.125
+                0x0000000000081527                _ZN3mwx2L112appdefs_virt18cbToCoNet_vTxEventERNS0_12packet_ev_txE.local.128
+                0x0000000000081539                _ZN3mwx2L112appdefs_virt19cbToCoNet_vNwkEventERNS0_13packet_ev_nwkE.local.130
+                0x000000000008154b                _ZN3mwx2L112appdefs_virt5setupEv.local.132
+ .text.unlikely
+                0x0000000000081568       0x5f C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+                0x0000000000081568                PRSEV_u8Register
+                0x00000000000815a6                _PRSEV_vProcessEvSingleH
+                0x00000000000815b5                _ZN3mwx2L112appdefs_virt18cbToCoNet_vRxEventERNS0_9packet_rxE.local.129
+ .text.unlikely
+                0x00000000000815c7      0x7be C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+                0x00000000000815c7                loop()
+ *fill*         0x0000000000081d85        0x3 00
+ .text          0x0000000000081d88      0xbac C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans2.ltrans.o
+                0x0000000000081d88                eWBRTTxDone.17978
+                0x0000000000081da6                vTAMCOframeTXgoingIdle
+                0x0000000000081dbf                vTAMCOframeTXcap
+                0x0000000000081de5                eWCoRRxDone.17969
+                0x0000000000081e8f                eWBcnRxDone.17981
+                0x000000000008247a                vTAMCOframeRXcap
+                0x000000000008248d                vTAMCOframeRXgoingIdle
+                0x00000000000824a3                vTAMCOframeRXnobeacon
+                0x00000000000824b6                vTAMDEframeRX
+                0x00000000000824df                vTAMDEframeRXtrackingDR
+                0x0000000000082523                vTAMDEframePreSyncReq
+                0x000000000008253c                vTAMCOframeTXbeacon
+                0x0000000000082604                vTAMDEframeRXsyncReq
+                0x0000000000082854                vTAMDEint1FiredTrackingCAPgts
+                0x0000000000082905                eWONTTxDone.17975
+ .text          0x0000000000082934      0x788 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+                0x0000000000082934                SerCmdAscii_Output.11854
+                0x00000000000829d5                vAppQApiPostHwIntT.8870
+                0x0000000000082aa8                vRxChar.10206
+                0x0000000000082af9                vXCV_IntHandlerPhy
+                0x0000000000082bab                TWE_fprintf.constprop.352
+                0x0000000000082be4                _ZN3mwx2L16twenetC1Ev.local.82
+                0x0000000000082c9c                cbAppColdStart.part.25.3807
+                0x0000000000082f20                SERIAL_i16RxChar
+                0x0000000000082f7f                TWETERM_iGetC.12544
+                0x0000000000082fa1                u8TAM_AES_WriteAuxilliarySecurityHeaderIntoBuffer
+                0x0000000000083013                phy_ePibSet.part.1.19788
+                0x000000000008305b                u32AHI_ReadIndexSectorBits.constprop.224
+ .text.unlikely
+                0x00000000000830bc      0x184 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+                0x00000000000830fd                _ZN3mwx2L114periph_twowireILi32EE9busy_waitEv.isra.32.2216
+                0x000000000008319d                sendScore()
+ .text          0x0000000000083240      0xc4a C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans4.ltrans.o
+                0x0000000000083240                vAHI_IntHandlerTimer4
+                0x0000000000083261                vAHI_IntHandlerTimer3
+                0x0000000000083282                vAHI_IntHandlerTimer1
+                0x00000000000832a2                vAHI_IntHandlerTimer0
+                0x00000000000832c3                vTimerCallback.28312
+                0x00000000000832ce                vAHI_IntHandlerSpiMaster
+                0x00000000000832f4                vAHI_IntHandlerAnalogPeriph
+                0x0000000000083314                vTTIBLETimerExpired
+                0x000000000008331f                vTTITimer2Expired
+                0x0000000000083324                vTTITimer1Expired
+                0x0000000000083329                vTAM_TxRetryTimeout
+                0x000000000008332e                vAHI_UartSetControl.part.2.28730
+                0x000000000008337f                vAHI_UartSetBaudDivisor.part.1.28726
+                0x00000000000833be                vAHI_WatchdogStop
+                0x00000000000833d5                vAHI_CpuDoze
+                0x00000000000833e8                _ZN3mwx2L120periph_pulse_counter10_on_wakeupEv.part.11.3367
+                0x000000000008345e                u32AHI_DioWakeStatus
+                0x000000000008346f                vAHI_DioWakeEdge
+                0x000000000008348f                vAHI_DioSetPullup
+                0x00000000000834af                vAHI_DioSetOutput
+                0x00000000000834c3                vAHI_DioSetDirection
+                0x00000000000834d7                vACI_CmdWaitBusy
+                0x000000000008353b                vACI_OptimisedCcmStar
+                0x0000000000083753                vTAIdisableInterrupt
+                0x000000000008376c                vUpdateRegisters.27575
+                0x00000000000837b3                psRemove.part.0.27525
+                0x00000000000837e2                vMAC_MISCpollConfirm
+                0x0000000000083813                MAC_u8AclFindInfo
+                0x000000000008393d                vTASretrieveSecurity
+                0x000000000008395f                MAC_bLookUpKeyDescriptor.25077
+                0x00000000000839d9                u8TSCframeIncrease
+                0x0000000000083a12                bUpdateTime.23305
+                0x0000000000083a4d                vTACbuildBeacon
+                0x0000000000083c55                vTSCpostTransmitUpdate
+                0x0000000000083c85                vCopyToDataFromMacAddr.24987
+                0x0000000000083cb8                bTSCgetOutgoingInfo
+                0x0000000000083dc1                vDoGoOff.24267
+                0x0000000000083ddb                psTAQsearchFifo
+                0x0000000000083e24                bTAQremoveFromFifo
+                0x0000000000083e61                vTTITransactionTimerExpired
+ .text.unlikely
+                0x0000000000083e8a       0x11 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans4.ltrans.o
+                0x0000000000083e8a                vStartXtal32kExternalRc.28326
+ .text          0x0000000000083e9b      0xafe C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+                0x0000000000083eb0                mac_vLPBStartTimer
+                0x0000000000084112                vProcessEvCoreTx.8183
+                0x00000000000841fc                bAHI_SetClockRate
+                0x0000000000084307                vAHI_SiMasterConfigure.constprop.326
+                0x000000000008433b                _ZN3mwx2L16twenet5beginEv.local.109.constprop.292
+                0x0000000000084380                _ZN3mwx2L114periph_buttons5beginEmht.constprop.291
+                0x00000000000843e3                vAHI_DoSetPullup.constprop.288
+                0x0000000000084403                vAHI_DioWakeEnable.constprop.287
+                0x0000000000084417                vAHI_TimerEnable.part.1.28527.constprop.264
+                0x0000000000084482                _ZN3mwx2L115periph_analogue10_adc_startEv.local.62.constprop.257
+                0x000000000008456b                u8HwEventHandler.7541
+                0x0000000000084610                mwx::L1::periph_analogue::ADC_handler(unsigned long, unsigned long)
+                0x0000000000084657                bAES_CCMstar
+                0x0000000000084723                bAES_CCM_DecodeKey
+                0x00000000000847df                pvHeap_Alloc
+                0x00000000000847e2                operator new(unsigned long)
+                0x0000000000084805                u32AHI_Init
+                0x00000000000848c7                vMicroIntRestoreState
+                0x00000000000848d3                bAHI_DoEnableOutputs
+                0x00000000000848fc                u8AHI_WakeTimerFiredStatus
+                0x0000000000084910                vAHI_WakeTimerStop.part.3.28992
+                0x0000000000084930                mac_vLPBStopTimer
+                0x000000000008493a                vAHI_UartSetRTSCTS.part.15.28773
+                0x0000000000084961                vAHI_UartReset.part.4.28746
+ .text.unlikely
+                0x0000000000084999       0x52 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+                0x0000000000084999                vAHI_MemoryHold.28426
+                0x00000000000849de                bAHI_SiMasterPollTransferInProgress
+ .text          0x00000000000849eb     0x109a C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+                0x0000000000084be3                _ntoa_long_long.12682.constprop.356
+                0x0000000000084cb8                _ntoa_long.12670.constprop.361
+                0x0000000000084d85                _etoa.12728.constprop.357
+                0x0000000000085130                _ftoa.12708.constprop.359
+                0x0000000000085489                vMicroIntEnableOnly.constprop.349
+                0x00000000000854b5                QUEUE__u8RemoveItem
+                0x000000000008550f                QUEUE__vAddItem.constprop.341
+                0x0000000000085541                _ZN3mwx2L110twenet_mac8transmitERNS0_9packet_txE.local.53.constprop.340
+                0x0000000000085722                _ToCoNet_bRfChChannel
+                0x00000000000857b9                ToCoNet_ChMgr_bCh_Reconfig
+                0x0000000000085821                ToCoNet_ChMgr_vCh_TxFin
+                0x000000000008584d                vHnd_E_STATE_WAIT_TX.8214
+                0x00000000000858bd                vHnd_E_STATE_IDLE.8206
+                0x0000000000085912                vAHI_ProtocolPower.constprop.348
+                0x0000000000085920                XCV_vCtor.constprop.346
+ *fill*         0x0000000000085a85        0x3 00
+ .text          0x0000000000085a88      0x9d4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+                0x0000000000085a88                eTAMselect
+                0x0000000000085bc8                MAC_pvCtor
+                0x0000000000085fe3                u32AppApiDefInit
+                0x0000000000086098                _ToCoNet_vMacInit
+                0x00000000000860fe                _ToCoNet_vRfConfig
+                0x000000000008624e                mwx::L1::NwkSimple::on_create(unsigned long&)
+                0x000000000008631d                _ZN3mwx2L123twenet_instance_manager3useINS0_9NwkSimpleEEERT_v.local.175.constprop.311
+ .text          0x000000000008645c      0xa06 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans8.ltrans.o
+                0x000000000008645c                setup()
+                0x00000000000865ec                ToCoNet_vMain
+ *fill*         0x0000000000086e62        0x2 00
+ .text          0x0000000000086e64      0xa84 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans9.ltrans.o
+                0x0000000000086e64                vPostDcfm.17965
+                0x0000000000086f38                AppWarmStart
+                0x0000000000087008                vSetNextChannel.18013
+                0x0000000000087061                MAC_vHandleMlmeReqRsp
+                0x0000000000087811                vTAMDEint1FiredTracking
+                0x0000000000087881                vTAMDEint1FiredSyncReq
+ .text          0x00000000000878e8      0x5ec C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+                0x00000000000878e8                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE9_on_eventEPvmRm.local.210
+                0x0000000000087931                vProcessEvCoreMac
+                0x0000000000087998                AppColdStart
+ .text.unlikely
+                0x0000000000087ed4      0x3ae C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+                0x0000000000087ed4                ToCoNet_vStart
+ .text          0x0000000000088282      0x9b6 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans11.ltrans.o
+                0x00000000000882cd                vAHI_IntHandlerTickTimer
+                0x0000000000088314                SERIAL_bTxChar
+                0x00000000000883b6                TWETERM_vFlush.12513
+                0x000000000008842d                vTACintRXheader
+                0x0000000000088c28                eGenRxHdrDone.17972
+ .text          0x0000000000088c38      0xc57 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans12.ltrans.o
+                0x0000000000088c38                vHnd_E_STATE_RUNNING.8222
+                0x0000000000088e84                bAHI_ReadMACID
+                0x0000000000088eca                ToCoNet_vInit
+                0x0000000000089207                vExpireHead.27530
+                0x0000000000089237                _vsnprintf.constprop.355
+                0x000000000008984a                fctprintf
+                0x000000000008986c                _ZN3mwx2L111_printobj_2ImhE9_do_printEPvPFvcS3_ES3_.local.206
+                0x0000000000089883                MWX_DebugMsg.constprop.353
+ .text.unlikely
+                0x000000000008988f        0xf C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans12.ltrans.o
+                0x000000000008988f                u32AppQApiInitInt_PATCH
+ .text          0x000000000008989e      0x704 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans13.ltrans.o
+                0x000000000008989e                UART_vHandleUartInterrupt.10309
+                0x0000000000089925                _ZN3mwx2L114processev_crtpINS0_9NwkSimpleEE14vProcessEvCoreEP8_tsEvent7teEventm.local.211
+                0x00000000000899ca                vScanHandleTimer.17578
+                0x00000000000899d0                vXCV_IntHandlerBbc
+                0x0000000000089a73                SERIAL_vTxReady
+                0x0000000000089aab                vTAIsetCapTime
+                0x0000000000089acc                vTAIsetRxEnableTime
+                0x0000000000089aed                vDoGoActive.24269
+                0x0000000000089b0f                vTAMRXEint2Fired
+                0x0000000000089b46                _ZN3mwx2L115periph_analogue5setupEbhPFvvE.isra.4.3350.constprop.283
+                0x0000000000089bcc                vTAMRXEsetPhy
+                0x0000000000089c8f                vTAHsetPhyState
+                0x0000000000089cbf                vTAMCOint2Fired
+                0x0000000000089cdf                vSetPHYfromMacValue.21103
+                0x0000000000089d11                vTAMDEint1FiredWaitDR
+                0x0000000000089d1e                vTACsetPHYfromMacValue
+                0x0000000000089d3f                vTAMRXEsetReceiveForPibChange
+                0x0000000000089d7f                vMLMEbeaconNotify
+                0x0000000000089ede                vMCPSframeReceived
+ .text.unlikely
+                0x0000000000089fa2      0x206 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans13.ltrans.o
+                0x000000000008a01b                _ZL5delaym.2177.constprop.336
+                0x000000000008a0a0                bStartXtal32k.28336
+ .text          0x000000000008a1a8      0xb24 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans14.ltrans.o
+                0x000000000008a1a8                pinMode(unsigned char, mwx::L1::enum_wapper<PIN_MODE::eMWX_DIO_MODE, unsigned char>)
+                0x000000000008a32b                bTAM_AES_CCMstarPatch
+                0x000000000008a46f                bTAM_AES_CCMstarPatch2006
+                0x000000000008a74e                bTATsendFrame
+                0x000000000008a7a1                vTrySendFromDirectCAP.20560
+                0x000000000008a7bc                vTrySendFromDirectNoBeacon.20564
+                0x000000000008a7e7                vTAMCOint1Fired
+                0x000000000008a903                vTAMCOstartBeacon
+                0x000000000008a93e                vStartStoreValues.20628
+                0x000000000008a9f5                bStartCallback.20657
+                0x000000000008aa24                vTAMCOint1FiredCAP
+                0x000000000008aa97                vTAMCOreqTXnoBeacon
+                0x000000000008aaa9                vTAMCOreqTXinCAP
+                0x000000000008aacf                vTrySendUnslotted.21105
+                0x000000000008aae9                bSendDataRequest.21107
+                0x000000000008abfb                bProcessBeaconRX.21110
+ .text          0x000000000008accc      0xb24 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans15.ltrans.o
+                0x000000000008accc                TSV_eStart
+                0x000000000008adb0                vTAMDEstartSync
+                0x000000000008ae2e                vDeterminePowerState.21227
+                0x000000000008aeb1                vTAMDEint1FiredTrackingBeacon
+                0x000000000008af51                vTAMDEint2FiredTrackingDR
+                0x000000000008af76                vTAMDEframeTXtrackingDR
+                0x000000000008afcf                vTAMDEint2FiredPollActive
+                0x000000000008b003                vTAMDEreqTXnullTrackingCAP
+                0x000000000008b01c                vTAM_TxRetryTimer
+                0x000000000008b029                eTAStransmitRequest
+                0x000000000008b3c4                vPMICassocReqTO_1.16402
+                0x000000000008b44c                vTAM_MCPSdataRequest
+                0x000000000008b48f                bTACcheckPANconflict
+                0x000000000008b548                TSV_eOpen
+                0x000000000008b550                vAppApiDefRestoreMacSettings
+                0x000000000008b621                vAppApiDefSaveMacSettings
+                0x000000000008b67e                mac_vLPBSleep
+                0x000000000008b73c                pvAppApiDefGetMacAddrLocation
+                0x000000000008b745                eAppApiDefPlmeGet
+                0x000000000008b797                eAppApiDefPlmeSet
+ .text          0x000000000008b7f0      0x748 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans16.ltrans.o
+                0x000000000008b7f0                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vRxEventEPvRNS0_9packet_rxE.local.209
+                0x000000000008bd02                cbAppWarmStart.part.23.3648
+                0x000000000008be97                _MWX_periph_init()
+ *fill*         0x000000000008bf38        0x0 00
+ .text          0x000000000008bf38      0x518 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans17.ltrans.o
+                0x000000000008bf38                _ZN3mwx2L113serial_parserINS0_10alloc_heapIhEEE4putcINS0_10serial_jenEEEiiP15_tsTWETERM_FILE.local.165
+                0x000000000008bf4c                _ZN3mwx2L113serial_parserINS0_12alloc_attachIhEEE4putcINS0_10serial_jenEEEiiP15_tsTWETERM_FILE.local.155
+                0x000000000008bf96                _ZN3mwx2L110serial_jen5beginEmh.isra.17.part.18.3381.constprop.274
+                0x000000000008c209                vTimerConfig
+                0x000000000008c3d7                _ZN3mwx2L112periph_timer10_on_wakeupEv.local.123
+                0x000000000008c40f                _ZN3mwx2L16streamINS0_10serial_jenEElsERNS0_18MWX_Stream_EndLineE.isra.30.2211
+                0x000000000008c42b                _ZN3mwx2L16streamINS0_10serial_jenEE6_printEPKc.local.173
+ .text          0x000000000008c450      0x53b C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+                0x000000000008c450                vAppApiDefMcpsRequest
+                0x000000000008c47b                vHnd_E_STATE_PREPARE_TX.8201
+                0x000000000008c957                vAppApiDefMlmeRequest
+                0x000000000008c982                pvAppApiDefGetMacHandle
+ *fill*         0x000000000008c98b        0x1 00
+ .text.unlikely
+                0x000000000008c98c      0x318 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+                0x000000000008c9a9                vProcessIncomingHwEvent.7710
+ .text          0x000000000008cca4      0x76f C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans19.ltrans.o
+                0x000000000008cca4                bAES_CCM_EncodeKey
+                0x000000000008ce21                vHnd_E_STATE_FINISH_TX_FAIL.8191
+                0x000000000008ced8                vHnd_E_STATE_FINISH_TX_SUCCESS.8196
+                0x000000000008cf6b                u8Write802_15_4HeaderIntoBuffer.26276
+                0x000000000008d0cb                vTimerStart
+                0x000000000008d1e4                _Z41__static_initialization_and_destruction_0ii.part.26.3812
+                0x000000000008d3af                MWX_Panic
+ *fill*         0x000000000008d413        0x1 00
+ .text          0x000000000008d414      0x780 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans20.ltrans.o
+                0x000000000008d414                eGenTmrExpiry.18274
+                0x000000000008d456                eWEDTEdDone.18277
+                0x000000000008d47a                TSV_eStop
+                0x000000000008d539                bPMICdisassocReqSent.16398
+                0x000000000008d5f3                MAC_vHandleMcpsReqRsp
+                0x000000000008d680                bMCPSframeTXcomplete.19009
+                0x000000000008d6d5                bSendSyncLoss.23240
+                0x000000000008d6ed                bPollReqSent.26836
+                0x000000000008d705                bTASsendCommStatusInd
+                0x000000000008d71a                bAssocRespSent.16394
+                0x000000000008d72d                eTACprocessFrameTXcomplete
+                0x000000000008d8a9                vTAMCOframeTXnobeacon
+                0x000000000008d8be                vTAMCOframeStarting
+                0x000000000008d8d7                vTAMDEframeTXDEnull
+                0x000000000008d8fa                vTAMDEframeTXtrackingCAPgts
+                0x000000000008d926                bPMICassocReqSent.16390
+                0x000000000008d9a8                bPMICassocReqPollSent.16405
+                0x000000000008d9fc                eWChCChanChgd.17989
+ .text          0x000000000008db94       0x25 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                0x000000000008db94                memcmp
+ .text          0x000000000008dbb9       0x19 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ *fill*         0x000000000008dbd2        0x2 00
+ .text          0x000000000008dbd4      0x204 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+                0x000000000008dbd4                __udivsi3
+ .text          0x000000000008ddd8       0x30 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+                0x000000000008ddd8                __divsi3
+ .text          0x000000000008de08      0x1b0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+                0x000000000008de08                __umodsi3
+ .text          0x000000000008dfb8       0x24 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+                0x000000000008dfb8                __modsi3
+ .text          0x000000000008dfdc       0x39 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+                0x000000000008dfdc                __fixunsdfsi
+ .text          0x000000000008e015      0x350 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+                0x000000000008e015                __udivdi3
+ .text          0x000000000008e365      0x312 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+                0x000000000008e365                __umoddi3
+ .text          0x000000000008e677      0x682 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+                0x000000000008e677                __adddf3
+ *fill*         0x000000000008ecf9        0x3 00
+ .text          0x000000000008ecfc      0x5c8 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+                0x000000000008ecfc                __divdf3
+ .text          0x000000000008f2c4       0x7f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+                0x000000000008f2c4                __nedf2
+                0x000000000008f2c4                __eqdf2
+ .text          0x000000000008f343       0xca c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+                0x000000000008f343                __gedf2
+                0x000000000008f343                __gtdf2
+ .text          0x000000000008f40d       0xcb c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+                0x000000000008f40d                __ledf2
+                0x000000000008f40d                __ltdf2
+ .text          0x000000000008f4d8      0x488 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+                0x000000000008f4d8                __muldf3
+ .text          0x000000000008f960      0x693 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+                0x000000000008f960                __subdf3
+ .text          0x000000000008fff3       0x64 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+                0x000000000008fff3                __fixdfsi
+ .text          0x0000000000090057       0x61 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+                0x0000000000090057                __floatsidf
+ .text          0x00000000000900b8       0x4f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+                0x00000000000900b8                __floatunsidf
+ .text          0x0000000000090107       0x27 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+                0x0000000000090107                vAHI_InterruptSetPriority
+                0x0000000000090125                vAHI_InterruptSetActivePriorityLevel
+ .text.vMicroSyscall
+                0x000000000009012e       0x17 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                0x000000000009012e                vMicroSyscall
+ .text          0x0000000000090145       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                0x0000000000090145                memset
+ .text          0x0000000000090157       0x38 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+                0x0000000000090157                strncmp
+                0x000000000009018f                _flash_end = ABSOLUTE (.)
+
+.rela.dyn       0x0000000000090190        0x0
+ .rela.text     0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+ .rela.text.unlikely
+                0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+ .rela.rodata   0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+ .rela.data     0x0000000000000000        0x0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+                0x000000000400004c                . = ORIGIN (ram)
+
+.data           0x000000000400004c       0x10 load address 0x0000000000090190
+                0x000000000400004c                _ram_data_start = ABSOLUTE (.)
+ *(.data*)
+ .data          0x000000000400004c        0x4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+                0x000000000400004c                u32HeapStart
+ .data.initinboot
+                0x0000000004000050        0x8 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+ .data          0x0000000004000058        0x1 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+ .data.initinboot
+                0x0000000004000059        0x1 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+                0x0000000004000059                gMAC_u8MaxBuffers
+ .data          0x000000000400005a        0x1 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+                0x000000000400005a                u8TxWkrNow.8325
+ *(.data.*)
+                0x000000000400005c                . = ALIGN (0x4)
+ *fill*         0x000000000400005b        0x1 00
+                0x000000000400005c                _ram_data_end = ABSOLUTE (.)
+
+.bss            0x000000000400005c     0x1640 load address 0x00000000000901a0
+                0x000000000400005c                _bss_start = ABSOLUTE (.)
+ *(.bss*)
+ .bss           0x000000000400005c        0xc C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+ .bss           0x0000000004000068       0x5c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+                0x0000000004000068                the_mac
+                0x0000000004000078                asSerialPorts
+                0x00000000040000b0                mode
+                0x00000000040000b4                score
+ .bss           0x00000000040000c4       0x40 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans2.ltrans.o
+                0x00000000040000c4                g_sLP
+                0x0000000004000100                g_pvMac
+ .bss.initinboot
+                0x0000000004000104      0x1c0 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans2.ltrans.o
+                0x0000000004000104                g_sMac
+ .bss           0x00000000040002c4      0x614 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+                0x00000000040002c4                prAppHwCallback.9115
+ .bss           0x00000000040008d8        0x8 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+ .bss.dontinitinboot
+                0x00000000040008e0        0x4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+ .bss           0x00000000040008e4       0x14 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+                0x00000000040008e4                bForceInitialize.8283
+                0x00000000040008e8                pvPostFunc.7412
+                0x00000000040008ec                u32PostArg.7411
+                0x00000000040008f0                evPost.7410
+ .bss.dontinitinboot
+                0x00000000040008f8        0x8 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+ .bss           0x0000000004000900       0x20 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+                0x0000000004000900                g_sXcv
+                0x0000000004000904                prMcpsRequest.13402
+                0x0000000004000908                prMlmeRequest.13401
+                0x000000000400090c                prOriginalHandler.10185
+ .bss.initinboot
+                0x0000000004000920        0x8 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+                0x0000000004000920                g_u32MacAddrLocation
+                0x0000000004000924                prvUserTxStartedCallback
+ .bss           0x0000000004000928      0x17c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans8.ltrans.o
+                0x0000000004000928                sMcpsIndQueue.9109
+                0x0000000004000938                bRxQueue_Init.10052
+                0x0000000004000939                u8AppId_Pkt_head.10054
+                0x000000000400093c                u32AppId.10050
+                0x0000000004000940                sMcpsIndBufferQueue.9107
+                0x0000000004000950                sMlmeIndQueue.9110
+                0x0000000004000960                sMlmeIndBufferQueue.9108
+                0x0000000004000970                sHwIndQueue.9111
+                0x0000000004000980                sHwIndBufferQueue.9112
+                0x0000000004000990                _u32_INT_adc_comp
+                0x0000000004000994                _u32_INT_ticktimer
+                0x0000000004000998                the_vhw
+                0x00000000040009b8                the_vapp
+                0x00000000040009d8                the_vnet
+                0x00000000040009f8                _periph_availmap
+                0x00000000040009fc                Wire
+                0x0000000004000a2c                Serial
+                0x0000000004000a48                SerialParser
+                0x0000000004000a90                Buttons
+ .bss           0x0000000004000aa4       0x88 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans9.ltrans.o
+                0x0000000004000aa4                _ZL5_vcbs.3932
+                0x0000000004000ab0                sToCoNet_AppContext
+                0x0000000004000acc                sToCoNet_Context
+                0x0000000004000b14                sAssocSecurity.17019
+                0x0000000004000b20                g_bJenieBackwardsCompatibilityMode
+ .bss           0x0000000004000b2c      0x284 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+                0x0000000004000b2c                psRxQueueList.10051
+                0x0000000004000b40                asEventHandler.7398
+                0x0000000004000be0                sEvVars
+                0x0000000004000bfc                u32TickCount_ms
+                0x0000000004000c00                au8Txdatabuff_idx_sTxQueue
+                0x0000000004000c04                u8TxBuffSiz_sTxQueue
+                0x0000000004000c08                sTxdatabuff_sTxQueue
+                0x0000000004000c0c                sTxQueue
+                0x0000000004000c28                au8Rxdatabuff_idx_sRxQueue
+                0x0000000004000c2c                u8RxBuffSiz_sRxQueue
+                0x0000000004000c30                sRxdatabuff_sRxQueue
+                0x0000000004000c34                sRxQueue
+                0x0000000004000c50                au8Rxdatabuff_idx_sRxQueueCmd
+                0x0000000004000c54                u8RxBuffSiz_sRxQueueCmd
+                0x0000000004000c58                sRxdatabuff_sRxQueueCmd
+                0x0000000004000c5c                sRxQueueCmd.7849
+                0x0000000004000c78                sContext.10175
+                0x0000000004000ca4                the_twelite
+                0x0000000004000d44                sToCoNet_Modules
+ .bss           0x0000000004000db0        0xc C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans11.ltrans.o
+ .bss           0x0000000004000dbc      0x71c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans12.ltrans.o
+                0x0000000004000dbc                prSpiAppCallback.28300
+                0x0000000004000dc0                prSiAppCallback.29513
+                0x0000000004000dc4                prAppMcpsCallback.9113
+                0x0000000004000dc8                prAppMlmeCallback.9114
+                0x0000000004000dcc                TxWorker_u8Num.8282
+ .bss.initinboot
+                0x00000000040014d8        0x4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans12.ltrans.o
+                0x00000000040014d8                prSysCtrlAppCallback.28503
+ .bss           0x00000000040014dc       0x24 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans13.ltrans.o
+                0x00000000040014dc                gbTimeOutFlag.28499
+                0x00000000040014dd                bTxEventQueued.24135
+                0x00000000040014de                u8TxEventStatus.24136
+                0x00000000040014e0                sAppHousekeeping
+                0x00000000040014f8                prApAppCallback.28066
+                0x00000000040014fc                bIntEnableFlag.28063
+ .bss.dontinitinboot
+                0x0000000004001500        0x1 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans14.ltrans.o
+                0x0000000004001500                u8SecurityMode.26303
+ *fill*         0x0000000004001501        0x3 00
+ .bss           0x0000000004001504       0x1c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans15.ltrans.o
+ .bss.initinboot
+                0x0000000004001520        0x1 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans15.ltrans.o
+ *fill*         0x0000000004001521        0x3 00
+ .bss           0x0000000004001524       0x68 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans16.ltrans.o
+                0x0000000004001524                _psSerial
+                0x0000000004001528                Timer4
+                0x0000000004001530                Timer3
+                0x0000000004001538                Timer2
+                0x0000000004001540                Timer1
+                0x0000000004001548                Timer0
+                0x0000000004001550                Analogue
+                0x0000000004001568                Serial1
+ .bss           0x000000000400158c       0x9c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans17.ltrans.o
+                0x000000000400158c                apfTimerAppCallback.28712
+                0x00000000040015a0                prTickTimeAppCallback
+                0x00000000040015a4                au16TimerSettings.28661
+                0x00000000040015b0                prUart1AppCallback.28967
+                0x00000000040015b4                prUart0AppCallback.28966
+                0x00000000040015b8                asUARTS.10351
+                0x00000000040015d8                sOpt.10358
+ .bss           0x0000000004001628       0x1c C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+                0x0000000004001628                PulseCounter1
+                0x000000000400162c                PulseCounter0
+                0x0000000004001630                sCh_Context.8747
+                0x0000000004001634                u32MyAddr.10053
+                0x0000000004001638                asTx.8281
+ .bss           0x0000000004001644        0x4 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans19.ltrans.o
+                0x0000000004001644                SPI
+ .bss           0x0000000004001648       0x14 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans20.ltrans.o
+                0x0000000004001648                s_sTimerList
+                0x0000000004001658                u8AssocResponsesInProgress.17018
+ .bss.dontinitinboot
+                0x000000000400165c       0x40 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                0x000000000400165c                isr_handlers
+ *(.bss.*)
+ *(.scommon*)
+ *(.scommon.*)
+ *(COMMON)
+                0x000000000400169c                . = ALIGN (0x4)
+                0x000000000400169c                _bss_end = ABSOLUTE (.)
+
+.heap           0x000000000400169c     0x1000 load address 0x00000000000917e0
+                0x000000000400169c                _heap_start = ABSOLUTE (.)
+                0x000000000400269c                . = (. + _minimum_heap_size)
+ *fill*         0x000000000400169c     0x1000 00
+
+.stack          0x0000000004007400      0xc00 load address 0x0000000000097544
+                0x0000000004007400                _heap_end = ABSOLUTE (.)
+                0x0000000004007400                _stack_low_water_mark = ABSOLUTE (.)
+                0x0000000004008000                . = (. + _stack_size)
+ *fill*         0x0000000004007400      0xc00 00
+
+.test           0x00000000000901a0        0x1
+                0x00000000000901a0        0x1 BYTE 0xff
+                0x0000000000090190                _flash_data_start = LOADADDR (.data)
+                0x0000000000000010                _ram_data_len = (((_ram_data_end - _ram_data_start) + 0x3) & 0xfffffffffffffffc)
+                0x0000000000001640                _bss_len = (((_bss_end - _bss_start) + 0x3) & 0xfffffffffffffffc)
+                0x00000000000101a0                _image_len = ((((_flash_end - _flash_start) + _ram_data_len) + 0x3) & 0xfffffffffffffffc)
+                0x0000000004008000                _ram_top = (ABSOLUTE (ORIGIN (ram)) + 0x7fb4)
+                0x0000000004008000                ram_top = (ABSOLUTE (ORIGIN (ram)) + 0x7fb4)
+                0x0000000001001580                _app_ram_start = 0x1001580
+                0x000000000400004c                PROVIDE (_heap_location, u32HeapStart)
+                0x000000000400004c                PROVIDE (heap_location, u32HeapStart)
+                0x000000000008b548                TSV_eOpenVector = TSV_eOpen
+                0x000000000008accc                TSV_eStartVector = TSV_eStart
+                0x000000000008d47a                TSV_eStopVector = TSV_eStop
+                0x000000000008c982                pvAppApiGetMacHandle = pvAppApiDefGetMacHandle
+                0x0000000000085fe3                u32AppApiInit = u32AppApiDefInit
+                0x000000000008c957                vAppApiMlmeRequest = vAppApiDefMlmeRequest
+                0x000000000008c450                vAppApiMcpsRequest = vAppApiDefMcpsRequest
+                0x000000000008b797                eAppApiPlmeSet = eAppApiDefPlmeSet
+                0x000000000008b745                eAppApiPlmeGet = eAppApiDefPlmeGet
+                0x000000000008b73c                pvAppApiGetMacAddrLocation = pvAppApiDefGetMacAddrLocation
+                0x000000000008b621                vAppApiSaveMacSettings = vAppApiDefSaveMacSettings
+                0x000000000008b550                vAppApiRestoreMacSettings = vAppApiDefRestoreMacSettings
+OUTPUT(objs_BLUE/WirelessUart_receive_BLUE_L1300_V0-1-0.elf elf32-ba)
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans17.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans18.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans19.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\makot\AppData\Local\Temp\cceOMcIk.ltrans20.ltrans.o
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .comment       0x0000000000000000       0x11 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x12 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+.debug_info     0x0000000000000000     0x3526
+ .debug_info    0x0000000000000000       0xf3 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00000000000000f3      0x106 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000000001f9       0xb7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_info    0x00000000000002b0       0xb7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_info    0x0000000000000367       0xb7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_info    0x000000000000041e       0xb7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_info    0x00000000000004d5       0xd3 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_info    0x00000000000005a8      0x648 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000000bf0      0x69d c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_info    0x000000000000128d      0x4b2 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_info    0x000000000000173f      0x5c5 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_info    0x0000000000001d04      0x1e7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_info    0x0000000000001eeb      0x20b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_info    0x00000000000020f6      0x20b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_info    0x0000000000002301      0x5c7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_info    0x00000000000028c8      0x4b2 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_info    0x0000000000002d7a      0x1b7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_info    0x0000000000002f31      0x1d6 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_info    0x0000000000003107      0x1cb c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_info    0x00000000000032d2       0xaa C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_info    0x000000000000337c       0xd7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_info    0x0000000000003453       0xd3 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+.debug_abbrev   0x0000000000000000     0x11ae
+ .debug_abbrev  0x0000000000000000       0x8e c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x000000000000008e       0xa4 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000132       0x14 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_abbrev  0x0000000000000146       0x14 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_abbrev  0x000000000000015a       0x14 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_abbrev  0x000000000000016e       0x14 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_abbrev  0x0000000000000182       0x60 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_abbrev  0x00000000000001e2      0x15d c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000000000000033f      0x175 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00000000000004b4      0x133 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_abbrev  0x00000000000005e7      0x12f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_abbrev  0x0000000000000716      0x128 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_abbrev  0x000000000000083e      0x137 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_abbrev  0x0000000000000975      0x139 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_abbrev  0x0000000000000aae      0x141 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000000bef      0x133 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_abbrev  0x0000000000000d22      0x12a c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x0000000000000e4c      0x128 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_abbrev  0x0000000000000f74      0x128 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x000000000000109c       0x14 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_abbrev  0x00000000000010b0       0x8e c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x000000000000113e       0x70 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+.debug_loc      0x0000000000000000     0x59f6
+ .debug_loc     0x0000000000000000       0x73 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000000073       0x39 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000000000000ac       0x48 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_loc     0x00000000000000f4      0xa7b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000000b6f      0x985 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_loc     0x00000000000014f4     0x10f3 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_loc     0x00000000000025e7     0x117e c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000003765       0x83 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_loc     0x00000000000037e8      0x154 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_loc     0x000000000000393c       0xe6 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_loc     0x0000000000003a22      0xa0e c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_loc     0x0000000000004430     0x114e c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_loc     0x000000000000557e       0xa8 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_loc     0x0000000000005626      0x1be c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_loc     0x00000000000057e4      0x179 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_loc     0x000000000000595d       0x3f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_loc     0x000000000000599c       0x5a c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+.debug_aranges  0x0000000000000000      0x2c0
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000020       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000040       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_aranges
+                0x0000000000000060       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_aranges
+                0x0000000000000080       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000100       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x0000000000000120       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_aranges
+                0x0000000000000140       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_aranges
+                0x0000000000000180       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_aranges
+                0x0000000000000200       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_aranges
+                0x0000000000000220       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_aranges
+                0x0000000000000240       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x0000000000000260       0x20 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_aranges
+                0x0000000000000280       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000002a0       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+.debug_line     0x0000000000000000     0x2d38
+ .debug_line    0x0000000000000000      0x15a c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_line    0x000000000000015a      0x14e c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_line    0x00000000000002a8      0x47b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_line    0x0000000000000723       0xbb c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_line    0x00000000000007de      0x3c7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_line    0x0000000000000ba5       0xa3 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_line    0x0000000000000c48       0x9f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x0000000000000ce7      0x1b7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000000e9e      0x1b7 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_line    0x0000000000001055      0x63d c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_line    0x0000000000001692      0x3b5 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_line    0x0000000000001a47       0xf1 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_line    0x0000000000001b38      0x15f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_line    0x0000000000001c97      0x15f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_line    0x0000000000001df6      0x269 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_line    0x000000000000205f      0x656 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_line    0x00000000000026b5       0xc8 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_line    0x000000000000277d       0xbc c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_line    0x0000000000002839       0xbe c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_line    0x00000000000028f7      0x197 C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_line    0x0000000000002a8e      0x144 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000002bd2      0x166 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+.debug_str      0x0000000000000000      0x709
+ .debug_str     0x0000000000000000       0x49 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                                        0x155 (size before relaxing)
+ .debug_str     0x0000000000000049       0x5d c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+                                        0x169 (size before relaxing)
+ .debug_str     0x00000000000000a6       0xc5 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+                                        0x169 (size before relaxing)
+ .debug_str     0x000000000000016b       0x7b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+                                        0x1d7 (size before relaxing)
+ .debug_str     0x00000000000001e6        0xa c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+                                        0x1d7 (size before relaxing)
+ .debug_str     0x00000000000001f0       0xc6 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+                                        0x1ba (size before relaxing)
+ .debug_str     0x00000000000002b6       0x7a c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+                                        0x1f9 (size before relaxing)
+ .debug_str     0x0000000000000330       0x3f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+                                        0x16e (size before relaxing)
+ .debug_str     0x000000000000036f       0x57 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+                                        0x186 (size before relaxing)
+ .debug_str     0x00000000000003c6       0x3f c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+                                        0x186 (size before relaxing)
+ .debug_str     0x0000000000000405       0x72 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+                                        0x1eb (size before relaxing)
+ .debug_str     0x0000000000000477       0x41 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+                                        0x1ba (size before relaxing)
+ .debug_str     0x00000000000004b8       0x4b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+                                        0x17f (size before relaxing)
+ .debug_str     0x0000000000000503       0x54 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+                                        0x188 (size before relaxing)
+ .debug_str     0x0000000000000557       0x4b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+                                        0x185 (size before relaxing)
+ .debug_str     0x00000000000005a2      0x11c c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                                        0x155 (size before relaxing)
+ .debug_str     0x00000000000006be       0x4b c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+                                        0x157 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x26c
+ .debug_frame   0x0000000000000000       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000020       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000040       0x2c c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x000000000000006c       0x30 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_frame   0x000000000000009c       0x34 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_frame   0x00000000000000d0       0x30 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_frame   0x0000000000000100       0x34 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_frame   0x0000000000000134       0x34 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000000168       0x34 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_frame   0x000000000000019c       0x30 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_frame   0x00000000000001cc       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_frame   0x00000000000001ec       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_frame   0x000000000000020c       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_frame   0x000000000000022c       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_frame   0x000000000000024c       0x20 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncmp.o)
+
+.debug_ranges   0x0000000000000000      0x558
+ .debug_ranges  0x0000000000000000       0xa0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x00000000000000a0       0x80 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_ranges  0x0000000000000120       0x80 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_ranges  0x00000000000001a0       0xb0 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_ranges  0x0000000000000250       0x38 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_ranges  0x0000000000000288       0x58 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_ranges  0x00000000000002e0       0x40 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_ranges  0x0000000000000320      0x1a8 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_ranges  0x00000000000004c8       0x78 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_ranges  0x0000000000000540       0x18 c:/users/makot/desktop/scoreboradproject/mwstage-2020-04_win10/mwstage/mwsdk/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
